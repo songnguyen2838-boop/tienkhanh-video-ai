@@ -301,22 +301,32 @@
               <!-- Top bar of Hero Video Player -->
               <div class="flex items-center justify-between pb-3 mb-3 border-b border-gold/30 text-xs text-silver font-semibold">
                 <span class="flex items-center gap-1.5 text-goldBright font-bold">
-                  <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-ping"></span>
+                  <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse shadow-sm shadow-red-500"></span>
                   Video Demo Thực Tế
                 </span>
                 <span class="badge-gold text-[10px] px-2 py-0.5 rounded-md font-semibold">Chuẩn 16:9 Ngang</span>
               </div>
 
-              <!-- 16:9 YouTube Video Embed -->
-              <div class="video-glow relative aspect-[16/9] w-full rounded-2xl overflow-hidden bg-black border border-gold/40 shadow-2xl">
-                <iframe 
-                  class="w-full h-full"
-                  src="https://www.youtube-nocookie.com/embed/i_Eu5EcVztg?rel=0&modestbranding=1&playsinline=1" 
-                  title="Pha Chế - Demo VIDEO AI | TIENKHANH.ACADEMY" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  allowfullscreen>
-                </iframe>
+              <!-- 16:9 YouTube Video Embed (Hiển thị rõ khung hình HD, không bị che bởi YouTube UI) -->
+              <div id="heroVideoContainer" 
+                   onclick="playHeroVideo()" 
+                   class="video-glow relative aspect-[16/9] w-full rounded-2xl overflow-hidden bg-black border border-gold/40 shadow-2xl cursor-pointer group"
+                   style="aspect-ratio: 16/9; background-image: url('https://i.ytimg.com/vi/i_Eu5EcVztg/maxresdefault.jpg'); background-size: cover; background-position: center;">
+                
+                <!-- Subtle dark overlay on hover -->
+                <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition duration-300"></div>
+
+                <!-- Sleek, elegant play button -->
+                <div class="relative z-10 w-12 h-12 rounded-full bg-black/55 backdrop-blur-md border border-white/40 text-white flex items-center justify-center shadow-2xl group-hover:scale-110 group-hover:bg-goldBright group-hover:text-black group-hover:border-goldBright transition duration-200">
+                  <svg class="w-5 h-5 fill-current ml-0.5" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+
+                <!-- Bottom pill badge -->
+                <div class="absolute bottom-2.5 right-2.5 z-10">
+                  <span class="bg-black/75 backdrop-blur-sm text-goldBright border border-gold/40 text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-md shadow flex items-center gap-1 group-hover:bg-goldBright group-hover:text-black transition">
+                    ▶ Bấm phát video HD
+                  </span>
+                </div>
               </div>
 
               <!-- Feature checklist inside Hero Player -->
@@ -1404,7 +1414,24 @@
     // =========================================================================
     // HÀM MỞ / ĐÓNG MODAL XEM VIDEO MẪU HD (TỰ ĐỘNG PHÁT VÀ DỪNG)
     // =========================================================================
-    function openVideoModal(videoId, title, ratio) {
+    function playHeroVideo() {
+  const container = document.getElementById('heroVideoContainer');
+  if (container) {
+    container.innerHTML = `
+      <iframe 
+        class="w-full h-full"
+        src="https://www.youtube-nocookie.com/embed/i_Eu5EcVztg?autoplay=1&rel=0&modestbranding=1&playsinline=1" 
+        title="Pha Chế - Demo VIDEO AI | TIENKHANH.ACADEMY" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+      </iframe>
+    `;
+    container.onclick = null;
+  }
+}
+
+function openVideoModal(videoId, title, ratio) {
       const modal = document.getElementById('videoPlayerModal');
       const iframe = document.getElementById('modalVideoIframe');
       const titleEl = document.getElementById('modalVideoTitle');
