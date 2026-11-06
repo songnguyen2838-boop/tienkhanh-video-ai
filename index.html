@@ -1,0 +1,1643 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dịch Vụ Sản Xuất Video AI Ngắn Chuyên Nghiệp | TIENKHANH.ACADEMY</title>
+  <meta name="description" content="Biến hình ảnh sản phẩm thành video quảng cáo AI ngắn chuyên nghiệp. Nhanh chóng trong 24h, tiết kiệm chi phí, không cần quay phim. Nhận từ 3 video, tặng kèm KOL AI độc quyền.">
+  <meta name="theme-color" content="#0056B3">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dịch Vụ Sản Xuất Video AI Ngắn Chuyên Nghiệp | Tien Khanh">
+  <meta property="og:description" content="Biến hình ảnh sản phẩm thành video quảng cáo triệu view bằng AI. Nhận video Full HD trong 24h-48h, nhận từ 3 video, tặng kèm nhân vật KOL AI phù hợp sản phẩm.">
+  <meta property="og:image" content="assets/brand-tien-khanh-video-ai-vibe-coding.png">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Be Vietnam Pro -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: '#0056B3',
+            deepTeal: '#002D32',
+            gold: '#D4AF37',
+            goldBright: '#FFD700',
+            silver: '#E0E0E0',
+            silverMuted: '#B8C2CC',
+            cardBg: 'rgba(7, 14, 24, 0.85)',
+            cardBorder: 'rgba(212, 175, 55, 0.45)'
+          },
+          fontFamily: {
+            sans: ['"Be Vietnam Pro"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Premium High-Contrast Dark Mode: Navy-Teal Gradient + Metallic Gold Accent */
+    :root {
+      color-scheme: dark;
+      --navy: #0056B3;
+      --teal: #002D32;
+      --gold: #D4AF37;
+      --gold-bright: #FFD700;
+      --gold-gradient: linear-gradient(120deg, #FFE58A 0%, #FFD700 40%, #D4AF37 100%);
+      --card-bg: rgba(7, 14, 24, 0.85);
+      --card-border: rgba(212, 175, 55, 0.45);
+      --text-white: #FFFFFF;
+      --text-silver: #E0E0E0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 80px;
+      background-color: #002D32;
+      scrollbar-color: #D4AF37 #07141D;
+    }
+
+    body {
+      font-family: 'Be Vietnam Pro', sans-serif;
+      background: radial-gradient(ellipse at 90% 0%, rgba(107, 55, 163, 0.22), transparent 45%),
+                  radial-gradient(ellipse at 10% 45%, rgba(236, 72, 153, 0.15), transparent 45%),
+                  radial-gradient(ellipse at 85% 80%, rgba(107, 55, 163, 0.18), transparent 40%),
+                  linear-gradient(135deg, #0056B3 0%, #003B4C 48%, #002D32 100%);
+      background-attachment: fixed;
+      color: #E0E0E0;
+      overflow-x: hidden;
+    }
+
+    ::selection {
+      background: #FFD700;
+      color: #07141D;
+    }
+
+    /* Custom Metallic Gold Scrollbar */
+    ::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #07141D;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(#FFD700, #D4AF37);
+      border: 2px solid #07141D;
+      border-radius: 12px;
+    }
+
+    /* Metallic Gold Text Gradient */
+    .text-gold-gradient {
+      background: linear-gradient(135deg, #FFE58A 0%, #FFD700 50%, #D4AF37 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Primary Gold CTA Buttons */
+    .btn-gold {
+      background: linear-gradient(120deg, #FFE58A 0%, #FFD700 38%, #D4AF37 100%);
+      color: #07131D;
+      font-weight: 800;
+      border: 1px solid #FFE58A;
+      box-shadow: 0 6px 24px rgba(212, 175, 55, 0.35);
+      transition: all 0.25s ease;
+    }
+    .btn-gold:hover {
+      background: linear-gradient(120deg, #FFF1B6 0%, #FFE35D 42%, #E5BF42 100%);
+      color: #050B11;
+      box-shadow: 0 8px 32px rgba(255, 215, 0, 0.55);
+      transform: translateY(-2px);
+    }
+    .btn-gold:active {
+      transform: scale(0.97);
+    }
+
+    /* Secondary Ghost Gold Button */
+    .btn-ghost-gold {
+      background: rgba(7, 14, 24, 0.7);
+      color: #FFFFFF;
+      font-weight: 700;
+      border: 1px solid rgba(212, 175, 55, 0.6);
+      backdrop-filter: blur(12px);
+      transition: all 0.25s ease;
+    }
+    .btn-ghost-gold:hover {
+      background: rgba(212, 175, 55, 0.15);
+      color: #FFD700;
+      border-color: #FFD700;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+    }
+
+    /* Frosted Glass Dark Card */
+    .glass-card {
+      background: rgba(7, 14, 24, 0.82);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(212, 175, 55, 0.42);
+      box-shadow: 0 14px 40px rgba(0, 0, 0, 0.45);
+    }
+    .glass-card-hover {
+      transition: all 0.3s ease;
+    }
+    .glass-card-hover:hover {
+      transform: translateY(-4px);
+      border-color: #FFD700;
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.55), 0 0 25px rgba(212, 175, 55, 0.25);
+    }
+
+    /* Purple & Pink Video Scene Glow Effect */
+    .video-glow {
+      box-shadow: 0 0 28px rgba(180, 106, 250, 0.32), 0 8px 30px rgba(236, 72, 153, 0.28);
+      border: 1px solid rgba(212, 175, 55, 0.65);
+    }
+
+    .hero-showcase-glow {
+      box-shadow: -14px 0 45px rgba(155, 92, 245, 0.28), 14px 10px 50px rgba(241, 101, 183, 0.28), 0 25px 70px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Badge Gold */
+    .badge-gold {
+      background: rgba(212, 175, 55, 0.12);
+      border: 1px solid rgba(212, 175, 55, 0.5);
+      color: #FFD700;
+      box-shadow: 0 0 18px rgba(255, 215, 0, 0.2);
+    }
+
+    /* Details Marker Hide */
+    details summary::-webkit-details-marker {
+      display: none;
+    }
+  </style>
+</head>
+<body class="antialiased">
+
+  <!-- Top Announcement Bar (Dark Navy + Gold Glow) -->
+  <div class="bg-gradient-to-r from-navy via-[#003B4C] to-deepTeal text-white text-xs sm:text-sm font-semibold py-2.5 px-4 text-center border-b border-gold/40 shadow-md">
+    <span>🎁 <strong class="text-goldBright font-extrabold">ƯU ĐÃI ĐẶC BIỆT:</strong> Tặng kèm <strong class="text-goldBright">KOL AI độc quyền</strong> phù hợp sản phẩm khi đặt từ 3 video + Chiết khấu lớn cho đối tác lâu dài!</span>
+  </div>
+
+  <!-- Navbar (Dark Frosted Glass + Gold Accents) -->
+  <header class="sticky top-0 z-40 bg-[#07131D]/85 backdrop-blur-xl border-b border-gold/30 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-goldBright to-gold flex items-center justify-center text-[#07131D] font-black text-xl shadow-lg shadow-gold/25">
+          TK
+        </div>
+        <div>
+          <div class="font-extrabold text-base sm:text-lg tracking-tight leading-none text-white">
+            TIENKHANH<span class="text-goldBright">.ACADEMY</span>
+          </div>
+          <div class="text-[11px] text-silverMuted font-medium tracking-wide mt-1">
+            Dịch vụ Sản Xuất Video AI Trọn Gói
+          </div>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-silver">
+        <a href="#loi-ich" class="hover:text-goldBright transition">Lợi ích</a>
+        <a href="#thu-vien-mau" class="hover:text-goldBright transition">Thư viện mẫu</a>
+        <a href="#quy-trinh" class="hover:text-goldBright transition">Quy trình</a>
+        <a href="#bang-gia" class="hover:text-goldBright transition">Bảng giá & Khuyến mãi</a>
+        <a href="#faq" class="hover:text-goldBright transition">Hỏi đáp</a>
+      </nav>
+
+      <!-- CTA Nav -->
+      <div class="flex items-center gap-3">
+        <a href="https://zalo.me/0918257209" target="_blank" class="hidden sm:inline-flex items-center gap-2 text-xs font-bold text-goldBright bg-gold/10 px-3.5 py-2 rounded-lg border border-gold/40 hover:bg-gold/20 transition">
+          <svg class="w-4 h-4 fill-current text-goldBright" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.04 2 11.03c0 2.87 1.48 5.43 3.79 7.07l-.99 3.65c-.1.38.27.71.63.56l4.22-1.78c.76.19 1.55.29 2.35.29 5.52 0 10-4.04 10-9.03S17.52 2 12 2z"/></svg>
+          Zalo Tư Vấn: 0918 257 209 (Thanh Hà)
+        </a>
+        <a href="#bang-gia" class="btn-gold inline-flex items-center justify-center font-extrabold text-xs sm:text-sm px-5 py-2.5 rounded-xl shadow-md transition">
+          Đặt Video Ngay ➔
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative pt-10 sm:pt-16 pb-16 sm:pb-24 overflow-hidden">
+    <!-- Decorative background glow blobs -->
+    <div class="absolute -top-32 -right-32 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute top-1/2 -left-32 w-96 h-96 bg-pink-600/15 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        
+        <!-- Left Hero Content -->
+        <div class="lg:col-span-7 text-center lg:text-left">
+          
+          <!-- Eyebrow Badge -->
+          <div class="badge-gold inline-flex items-center gap-2 px-4 py-1.5 rounded-full font-bold text-xs uppercase tracking-wider mb-6">
+            <span class="w-2 h-2 rounded-full bg-goldBright animate-ping"></span>
+            Nhận Đơn Từ 3 Video · Tặng KOL AI Phù Hợp Sản Phẩm
+          </div>
+
+          <!-- Main Title -->
+          <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.18] mb-6">
+            Biến Ảnh Sản Phẩm Thành <br class="hidden sm:inline">
+            <span class="text-gold-gradient">Video AI Triệu View</span>
+          </h1>
+
+          <!-- Subheadline -->
+          <p class="text-base sm:text-lg text-silver leading-relaxed max-w-2xl mx-auto lg:mx-0 mb-8 font-normal">
+            Không cần thuê mẫu, không cần studio quay phim tốn kém hàng triệu đồng. Chỉ cần gửi ảnh sản phẩm chụp bằng điện thoại, <strong class="text-white font-bold">TIENKHANH.ACADEMY</strong> sẽ lo trọn gói từ kịch bản chốt đơn, nhân vật AI, giọng đọc truyền cảm đến dựng video sắc nét chuẩn TikTok, Reels, Shorts & Facebook Ads.
+          </p>
+
+          <!-- Key Value Bullets -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8 text-left">
+            <div class="flex items-center gap-2.5 glass-card p-3 rounded-xl border border-gold/40">
+              <span class="w-6 h-6 rounded-full bg-gold/20 text-goldBright flex items-center justify-center font-bold text-sm">✓</span>
+              <span class="text-xs sm:text-sm font-semibold text-white">Chỉ từ 150K/video</span>
+            </div>
+            <div class="flex items-center gap-2.5 glass-card p-3 rounded-xl border border-gold/40">
+              <span class="w-6 h-6 rounded-full bg-gold/20 text-goldBright flex items-center justify-center font-bold text-sm">✓</span>
+              <span class="text-xs sm:text-sm font-semibold text-white">Tối thiểu từ 3 video</span>
+            </div>
+            <div class="flex items-center gap-2.5 glass-card p-3 rounded-xl border border-gold/40">
+              <span class="w-6 h-6 rounded-full bg-gold/20 text-goldBright flex items-center justify-center font-bold text-sm">✓</span>
+              <span class="text-xs sm:text-sm font-semibold text-goldBright font-bold">Tặng kèm KOL AI</span>
+            </div>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
+            <a href="#bang-gia" class="btn-gold w-full sm:w-auto inline-flex items-center justify-center gap-3 text-base px-8 py-4 rounded-xl shadow-xl shadow-gold/20 transition">
+              <span>Xem Bảng Giá & Đặt Đơn</span>
+              <svg class="w-5 h-5 stroke-current" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </a>
+            <a href="#thu-vien-mau" class="btn-ghost-gold w-full sm:w-auto inline-flex items-center justify-center gap-2 text-base px-7 py-4 rounded-xl transition">
+              <svg class="w-5 h-5 text-goldBright" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span>Xem Thư Viện Mẫu</span>
+            </a>
+          </div>
+
+          <!-- Brand Signature Tag (Tiến Khanh - Video AI & Vibe Coding) -->
+          <div class="mt-8 pt-6 border-t border-gold/30 flex items-center justify-center lg:justify-start gap-4">
+            <img src="assets/brand-tien-khanh-video-ai-vibe-coding.png" alt="Tien Khanh - Video AI & Vibe Coding" class="w-12 h-12 rounded-full object-cover border-2 border-goldBright shadow-md shadow-gold/30">
+            <div class="text-left">
+              <div class="font-extrabold text-sm text-white leading-tight">Tien Khanh</div>
+              <div class="text-xs text-goldBright font-semibold">Video AI & Vibe Coding</div>
+              <div class="text-[11px] text-silverMuted">Đồng hành sản xuất video cho hơn 500+ chủ shop & thương hiệu</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Hero Visual: Video Ngang 16:9 Thực Tế (Pha Chế - Video AI Cao Cấp) -->
+        <div class="lg:col-span-5">
+          <div class="relative mx-auto max-w-md lg:max-w-none">
+            
+            <div class="glass-card hero-showcase-glow rounded-3xl p-4 sm:p-5 border-2 border-gold/70 relative">
+              
+              <!-- Top bar of Hero Video Player -->
+              <div class="flex items-center justify-between pb-3 mb-3 border-b border-gold/30 text-xs text-silver font-semibold">
+                <span class="flex items-center gap-1.5 text-goldBright font-bold">
+                  <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-ping"></span>
+                  Video Demo Thực Tế
+                </span>
+                <span class="badge-gold text-[10px] px-2 py-0.5 rounded-md font-semibold">Chuẩn 16:9 Ngang</span>
+              </div>
+
+              <!-- 16:9 YouTube Video Embed -->
+              <div class="video-glow relative aspect-[16/9] w-full rounded-2xl overflow-hidden bg-black border border-gold/40 shadow-2xl">
+                <iframe 
+                  class="w-full h-full"
+                  src="https://www.youtube-nocookie.com/embed/i_Eu5EcVztg?rel=0&modestbranding=1&playsinline=1" 
+                  title="Pha Chế - Demo VIDEO AI | TIENKHANH.ACADEMY" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allowfullscreen>
+                </iframe>
+              </div>
+
+              <!-- Feature checklist inside Hero Player -->
+              <div class="mt-4 bg-[#050D18]/90 rounded-xl p-3 border border-gold/30 text-xs space-y-2">
+                <div class="flex items-center justify-between">
+                  <span class="text-silverMuted">Chủ đề demo:</span>
+                  <span class="font-bold text-white">Pha Chế & F&B Cao Cấp</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-silverMuted">Kỹ thuật AI:</span>
+                  <span class="font-bold text-goldBright">Chuyển động rót nước & giọt sóng sánh</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-silverMuted">Ưu đãi tặng kèm:</span>
+                  <span class="font-bold text-emerald-400">Tặng miễn phí 01 KOL AI độc quyền</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: So sánh Nỗi đau vs Giải pháp -->
+  <section id="loi-ich" class="py-16 bg-[#040C16]/80 backdrop-blur-md border-y border-gold/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <h2 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-goldBright mb-2">Đột Phá Năng Suất Bán Hàng</h2>
+        <p class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
+          Tại sao bạn nên chọn Dịch vụ Video AI thay vì cách quay phim truyền thống?
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+        
+        <!-- Cột Truyền Thống (Nỗi đau) -->
+        <div class="glass-card rounded-2xl p-6 sm:p-8 border border-white/10">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-10 h-10 rounded-xl bg-red-950/80 text-red-400 border border-red-500/40 flex items-center justify-center font-bold text-xl">✕</div>
+            <div>
+              <h3 class="font-bold text-lg text-white">Cách Làm Video Truyền Thống</h3>
+              <p class="text-xs text-silverMuted">Tốn kém, mất thời gian, khó mở rộng</p>
+            </div>
+          </div>
+
+          <ul class="space-y-4 text-sm text-silver">
+            <li class="flex items-start gap-3">
+              <span class="text-red-400 font-bold">✕</span>
+              <span><strong class="text-white">Chi phí đắt đỏ:</strong> Thuê studio, diễn viên, quay dựng tốn từ 2.000.000đ - 5.000.000đ cho mỗi video ngắn.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-red-400 font-bold">✕</span>
+              <span><strong class="text-white">Mất nhiều ngày:</strong> Chuẩn bị bối cảnh, hẹn lịch quay, đợi dựng video mất từ 5 - 10 ngày mới có video xem thử.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-red-400 font-bold">✕</span>
+              <span><strong class="text-white">Ngại quay, sợ lộ mặt:</strong> Chủ shop phải tự lên hình, nói vấp, quay lại cả chục lần mà video vẫn không tự nhiên.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-red-400 font-bold">✕</span>
+              <span><strong class="text-white">Khó test mẫu quảng cáo:</strong> Cần 10-20 video để test sản phẩm mới trên TikTok/FB nhưng chi phí quá lớn không kham nổi.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Cột Dịch Vụ AI TIENKHANH.ACADEMY (Giải pháp) -->
+        <div class="glass-card rounded-2xl p-6 sm:p-8 border-2 border-gold/70 relative shadow-xl shadow-gold/10">
+          <div class="absolute -top-3.5 right-6 bg-gradient-to-r from-goldBright to-gold text-[#07131D] text-[11px] font-black px-3 py-1 rounded-full uppercase tracking-wider shadow">
+            Giải pháp tối ưu 2026
+          </div>
+
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-goldBright to-gold text-[#07131D] flex items-center justify-center font-black text-xl shadow-md">✓</div>
+            <div>
+              <h3 class="font-bold text-lg text-white">Dịch Vụ Video AI Tại TIENKHANH.ACADEMY</h3>
+              <p class="text-xs text-goldBright font-semibold">Nhanh chóng, tiết kiệm, chuyên nghiệp</p>
+            </div>
+          </div>
+
+          <ul class="space-y-4 text-sm text-silver">
+            <li class="flex items-start gap-3">
+              <span class="text-goldBright font-bold text-base">✓</span>
+              <span><strong class="text-white">Chi phí siêu tiết kiệm:</strong> Chỉ từ <strong class="text-goldBright font-extrabold">150.000đ/video</strong> — rẻ hơn 10-20 lần so với thuê studio truyền thống.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-goldBright font-bold text-base">✓</span>
+              <span><strong class="text-white">Bàn giao thần tốc:</strong> Nhận video Full HD hoàn chỉnh trong vòng <strong class="text-goldBright">24h - 48h</strong> kể từ khi gửi ảnh.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-goldBright font-bold text-base">✓</span>
+              <span><strong class="text-white">TẶNG NGAY KOL AI ĐỘC QUYỀN:</strong> Tặng nhân vật người mẫu/chuyên gia AI phù hợp chuẩn 100% với sản phẩm của khách.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-goldBright font-bold text-base">✓</span>
+              <span><strong class="text-white">Ưu đãi đối tác lâu dài:</strong> Chính sách chiết khấu sâu đặc biệt cho khách hàng đặt làm video thường xuyên theo tháng.</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section: Thư viện video mẫu theo ngành (Showcase Grid có Glow Tím & Hồng) -->
+  <section id="thu-vien-mau" class="py-16 sm:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="badge-gold inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold uppercase mb-3">
+          Kho Ý Tưởng & Video Đã Triển Khai
+        </div>
+        <h2 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight mb-4">
+          Thư Viện Video AI Mẫu Theo Từng Ngành Nghề
+        </h2>
+        <p class="text-sm sm:text-base text-silver">
+          Mắt thấy tai nghe các video mẫu thực tế được sản xuất chuẩn 9:16 dọc cho TikTok, Reels & Shorts. Bấm vào bất kỳ mẫu nào để xem video phát trực tiếp!
+        </p>
+      </div>
+
+      <!-- Grid 9 Ngành Nghề Với Video Mẫu Thực Tế (Bấm Để Xem Trực Tiếp) -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Card 1: Gel Rửa Mặt & Làm Đẹp (Video Thật: Nunber6dTik) -->
+        <div class="glass-card glass-card-hover rounded-2xl p-5 flex flex-col justify-between border border-gold/30">
+          <div>
+            <div onclick="openVideoModal('Nunber6dTik', 'Gel Rửa Mặt - Video AI Pro', '9:16')" class="video-glow aspect-[16/9] rounded-xl mb-4 relative overflow-hidden flex items-center justify-center text-white bg-cover bg-center cursor-pointer group" style="background-image: url('https://i.ytimg.com/vi/Nunber6dTik/hqdefault.jpg');">
+              <div class="absolute inset-0 bg-black/45 group-hover:bg-black/25 transition"></div>
+              <div class="relative z-10 text-center p-4">
+                <div class="w-12 h-12 rounded-full bg-gold/90 text-black flex items-center justify-center font-black text-lg mx-auto mb-1 shadow-xl transform group-hover:scale-110 transition">▶</div>
+                <span class="text-xs font-bold uppercase tracking-wider text-rose-200">Mỹ Phẩm & Skincare</span>
+              </div>
+              <span class="absolute top-2.5 left-2.5 bg-black/70 text-goldBright border border-gold/40 text-[10px] font-semibold px-2 py-0.5 rounded-md">★ Video Thật (9:16)</span>
+            </div>
+            <h3 class="font-bold text-base text-white mb-1.5">Gel Rửa Mặt & Dưỡng Ẩm Chuyên Sâu</h3>
+            <p class="text-xs text-silver leading-relaxed mb-4">
+              Tạo bọt mịn màng, giọt nước mát lành, mô phỏng chuyển động làm sạch sâu và làn da căng bóng tự nhiên bằng công nghệ AI.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-gold/30 flex items-center justify-between text-xs">
+            <button onclick="openVideoModal('Nunber6dTik', 'Gel Rửa Mặt - Video AI Pro', '9:16')" class="text-goldBright font-bold hover:underline flex items-center gap-1">▶ Bấm xem video</button>
+            <a href="#dat-don" class="text-white font-bold hover:text-goldBright flex items-center gap-1 transition">Đặt mẫu này ➔</a>
+          </div>
+        </div>
+
+        <!-- Card 2: Mỹ phẩm & Serum (Video Thật: FjUi3Dzf5xI) -->
+        <div class="glass-card glass-card-hover rounded-2xl p-5 flex flex-col justify-between border border-gold/30">
+          <div>
+            <div onclick="openVideoModal('FjUi3Dzf5xI', 'Mỹ Phẩm - Video AI Tự Động', '9:16')" class="video-glow aspect-[16/9] rounded-xl mb-4 relative overflow-hidden flex items-center justify-center text-white bg-cover bg-center cursor-pointer group" style="background-image: url('https://i.ytimg.com/vi/FjUi3Dzf5xI/hqdefault.jpg');">
+              <div class="absolute inset-0 bg-black/45 group-hover:bg-black/25 transition"></div>
+              <div class="relative z-10 text-center p-4">
+                <div class="w-12 h-12 rounded-full bg-gold/90 text-black flex items-center justify-center font-black text-lg mx-auto mb-1 shadow-xl transform group-hover:scale-110 transition">▶</div>
+                <span class="text-xs font-bold uppercase tracking-wider text-pink-200">Mỹ Phẩm Cao Cấp</span>
+              </div>
+              <span class="absolute top-2.5 left-2.5 bg-black/70 text-goldBright border border-gold/40 text-[10px] font-semibold px-2 py-0.5 rounded-md">★ Video Thật (9:16)</span>
+            </div>
+            <h3 class="font-bold text-base text-white mb-1.5">Mỹ Phẩm Tinh Chất & Serum Sáng Da</h3>
+            <p class="text-xs text-silver leading-relaxed mb-4">
+              Mô phỏng chất kem mịn màng, giọt tinh chất thẩm thấu, ánh sáng studio sang trọng thu hút khách hàng nữ giới mua sắm.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-gold/30 flex items-center justify-between text-xs">
+            <button onclick="openVideoModal('FjUi3Dzf5xI', 'Mỹ Phẩm - Video AI Tự Động', '9:16')" class="text-goldBright font-bold hover:underline flex items-center gap-1">▶ Bấm xem video</button>
+            <a href="#dat-don" class="text-white font-bold hover:text-goldBright flex items-center gap-1 transition">Đặt mẫu này ➔</a>
+          </div>
+        </div>
+
+        <!-- Card 3: Đồ gia dụng - Máy Xay Sinh Tố (Video Thật: bT_UsefDeds) -->
+        <div class="glass-card glass-card-hover rounded-2xl p-5 flex flex-col justify-between border border-gold/30">
+          <div>
+            <div onclick="openVideoModal('bT_UsefDeds', 'Gia Dụng - Máy Xay Sinh Tố VIP', '9:16')" class="video-glow aspect-[16/9] rounded-xl mb-4 relative overflow-hidden flex items-center justify-center text-white bg-cover bg-center cursor-pointer group" style="background-image: url('https://i.ytimg.com/vi/bT_UsefDeds/hqdefault.jpg');">
+              <div class="absolute inset-0 bg-black/45 group-hover:bg-black/25 transition"></div>
+              <div class="relative z-10 text-center p-4">
+                <div class="w-12 h-12 rounded-full bg-gold/90 text-black flex items-center justify-center font-black text-lg mx-auto mb-1 shadow-xl transform group-hover:scale-110 transition">▶</div>
+                <span class="text-xs font-bold uppercase tracking-wider text-cyan-200">Gia Dụng & Tiện Ích</span>
+              </div>
+              <span class="absolute top-2.5 left-2.5 bg-black/70 text-goldBright border border-gold/40 text-[10px] font-semibold px-2 py-0.5 rounded-md">★ Video Thật (9:16)</span>
+            </div>
+            <h3 class="font-bold text-base text-white mb-1.5">Máy Xay Sinh Tố & Tiện Ích Bếp VIP</h3>
+            <p class="text-xs text-silver leading-relaxed mb-4">
+              Lưỡi dao xoay mạnh mẽ, hoa quả tươi nghiền mịn trong 10 giây, giải quyết nỗi đau việc nhà nhanh gọn cho các bà nội trợ.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-gold/30 flex items-center justify-between text-xs">
+            <button onclick="openVideoModal('bT_UsefDeds', 'Gia Dụng - Máy Xay Sinh Tố VIP', '9:16')" class="text-goldBright font-bold hover:underline flex items-center gap-1">▶ Bấm xem video</button>
+            <a href="#dat-don" class="text-white font-bold hover:text-goldBright flex items-center gap-1 transition">Đặt mẫu này ➔</a>
+          </div>
+        </div>
+
+        <!-- Card 4: Cà Phê Hòa Tan Pro (Video Thật: XbApT-70f9A) -->
+        <div class="glass-card glass-card-hover rounded-2xl p-5 flex flex-col justify-between border border-gold/30">
+          <div>
+            <div onclick="openVideoModal('XbApT-70f9A', 'Cà Phê Hòa Tan - Video Pro', '9:16')" class="video-glow aspect-[16/9] rounded-xl mb-4 relative overflow-hidden flex items-center justify-center text-white bg-cover bg-center cursor-pointer group" style="background-image: url('https://i.ytimg.com/vi/XbApT-70f9A/hqdefault.jpg');">
+              <div class="absolute inset-0 bg-black/45 group-hover:bg-black/25 transition"></div>
+              <div class="relative z-10 text-center p-4">
+                <div class="w-12 h-12 rounded-full bg-gold/90 text-black flex items-center justify-center font-black text-lg mx-auto mb-1 shadow-xl transform group-hover:scale-110 transition">▶</div>
+                <span class="text-xs font-bold uppercase tracking-wider text-amber-200">F&B / Cà Phê Hòa Tan</span>
+              </div>
+              <span class="absolute top-2.5 left-2.5 bg-black/70 text-goldBright border border-gold/40 text-[10px] font-semibold px-2 py-0.5 rounded-md">★ Video Thật (9:16)</span>
+            </div>
+            <h3 class="font-bold text-base text-white mb-1.5">Cà Phê Hòa Tan Đậm Đà Khó Cưỡng</h3>
+            <p class="text-xs text-silver leading-relaxed mb-4">
+              Hạt cà phê rơi, dòng nước nóng bốc khói sánh mịn tạo hương vị thơm nồng kích thích cảm giác thèm uống tức thì.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-gold/30 flex items-center justify-between text-xs">
+            <button onclick="openVideoModal('XbApT-70f9A', 'Cà Phê Hòa Tan - Video Pro', '9:16')" class="text-goldBright font-bold hover:underline flex items-center gap-1">▶ Bấm xem video</button>
+            <a href="#dat-don" class="text-white font-bold hover:text-goldBright flex items-center gap-1 transition">Đặt mẫu này ➔</a>
+          </div>
+        </div>
+
+        <!-- Card 5: Cà Phê Hòa Tan VIP (Video Thật: GWSbYaQBvLM) -->
+        <div class="glass-card glass-card-hover rounded-2xl p-5 flex flex-col justify-between border border-gold/30">
+          <div>
+            <div onclick="openVideoModal('GWSbYaQBvLM', 'Cà Phê Hòa Tan - Phiên Bản VIP', '9:16')" class="video-glow aspect-[16/9] rounded-xl mb-4 relative overflow-hidden flex items-center justify-center text-white bg-cover bg-center cursor-pointer group" style="background-image: url('https://i.ytimg.com/vi/GWSbYaQBvLM/hqdefault.jpg');">
+              <div class="absolute inset-0 bg-black/45 group-hover:bg-black/25 transition"></div>
+              <div class="relative z-10 text-center p-4">
+                <div class="w-12 h-12 rounded-full bg-gold/90 text-black flex items-center justify-center font-black text-lg mx-auto mb-1 shadow-xl transform group-hover:scale-110 transition">▶</div>
+                <span class="text-xs font-bold uppercase tracking-wider text-orange-200">Đồ Uống Sang Trọng</span>
+              </div>
+              <span class="absolute top-2.5 left-2.5 bg-black/70 text-goldBright border border-gold/40 text-[10px] font-semibold px-2 py-0.5 rounded-md">★ Video Thật (9:16)</span>
+            </div>
+            <h3 class="font-bold text-base text-white mb-1.5">Cà Phê Hòa Tan Thượng Hạng VIP</h3>
+            <p class="text-xs text-silver leading-relaxed mb-4">
+              Bối cảnh quý phái, góc quay cận cảnh hạt cà phê và bao bì sang trọng, nâng tầm giá trị thương hiệu lên gấp nhiều lần.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-gold/30 flex items-center justify-between text-xs">
+            <button onclick="openVideoModal('GWSbYaQBvLM', 'Cà Phê Hòa Tan - Phiên Bản VIP', '9:16')" class="text-goldBright font-bold hover:underline flex items-center gap-1">▶ Bấm xem video</button>
+            <a href="#dat-don" class="text-white font-bold hover:text-goldBright flex items-center gap-1 transition">Đặt mẫu này ➔</a>
+          </div>
+        </div>
+
+        <!-- Card 6: Thời trang & Mẫu AI Catwalk -->
+        <div class="glass-card glass-card-hover rounded-2xl p-5 flex flex-col justify-between border border-gold/30">
+          <div>
+            <div class="video-glow aspect-[16/9] bg-gradient-to-br from-[#1E0826] to-[#0A1124] rounded-xl mb-4 relative overflow-hidden flex items-center justify-center text-white">
+              <div class="absolute inset-0 bg-black/40"></div>
+              <div class="relative z-10 text-center p-4">
+                <span class="text-3xl mb-1 block">👗</span>
+                <span class="text-xs font-bold uppercase tracking-wider text-pink-300">Thời trang & Phụ kiện</span>
+              </div>
+              <span class="absolute top-2.5 left-2.5 bg-black/70 text-goldBright border border-gold/40 text-[10px] font-semibold px-2 py-0.5 rounded-md">Mẫu AI Catwalk (9:16)</span>
+            </div>
+            <h3 class="font-bold text-base text-white mb-1.5">Mẫu AI Mặc Thử Quần Áo & Biến Hình</h3>
+            <p class="text-xs text-silver leading-relaxed mb-4">
+              Biến ảnh chụp ma-nơ-canh hoặc ảnh shop thành video người mẫu AI mặc đồ thật, sải bước tự tin, chuyển cảnh đổi trang phục mượt mà.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-gold/30 flex items-center justify-between text-xs">
+            <span class="text-goldBright font-semibold text-xs">Tỷ lệ: 9:16 Dọc</span>
+            <a href="#dat-don" class="text-white font-bold hover:text-goldBright flex items-center gap-1 transition">Đặt mẫu này ➔</a>
+          </div>
+        </div>
+
+        <!-- Card 7: Video Đạo Lý & Kể Chuyện Viral (Video Thật: xr9xLUvjhig) -->
+        <div class="glass-card glass-card-hover rounded-2xl p-5 flex flex-col justify-between border border-gold/30">
+          <div>
+            <div onclick="openVideoModal('xr9xLUvjhig', 'Nói Đạo Lý - Video Hay Triệu View', '9:16')" class="video-glow aspect-[16/9] rounded-xl mb-4 relative overflow-hidden flex items-center justify-center text-white bg-cover bg-center cursor-pointer group" style="background-image: url('https://i.ytimg.com/vi/xr9xLUvjhig/hqdefault.jpg');">
+              <div class="absolute inset-0 bg-black/45 group-hover:bg-black/25 transition"></div>
+              <div class="relative z-10 text-center p-4">
+                <div class="w-12 h-12 rounded-full bg-gold/90 text-black flex items-center justify-center font-black text-lg mx-auto mb-1 shadow-xl transform group-hover:scale-110 transition">▶</div>
+                <span class="text-xs font-bold uppercase tracking-wider text-emerald-200">Kể Chuyện / Đạo Lý Viral</span>
+              </div>
+              <span class="absolute top-2.5 left-2.5 bg-black/70 text-goldBright border border-gold/40 text-[10px] font-semibold px-2 py-0.5 rounded-md">★ Video Thật (9:16)</span>
+            </div>
+            <h3 class="font-bold text-base text-white mb-1.5">Video Nói Đạo Lý & Kể Chuyện Triệu View</h3>
+            <p class="text-xs text-silver leading-relaxed mb-4">
+              Nhân vật AI chia sẻ bài học sâu sắc, triết lý kinh doanh giữ chân người xem từ đầu tới cuối, tăng tỷ lệ follow kênh chóng mặt.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-gold/30 flex items-center justify-between text-xs">
+            <button onclick="openVideoModal('xr9xLUvjhig', 'Nói Đạo Lý - Video Hay Triệu View', '9:16')" class="text-goldBright font-bold hover:underline flex items-center gap-1">▶ Bấm xem video</button>
+            <a href="#dat-don" class="text-white font-bold hover:text-goldBright flex items-center gap-1 transition">Đặt mẫu này ➔</a>
+          </div>
+        </div>
+
+        <!-- Card 8: Tại Sao Là Video AI Cấp Độ Cao (Video Thật: x0ilIP4vH_8) -->
+        <div class="glass-card glass-card-hover rounded-2xl p-5 flex flex-col justify-between border border-gold/30">
+          <div>
+            <div onclick="openVideoModal('x0ilIP4vH_8', 'Tại Sao Là Video AI - Cấp Độ Cao', '9:16')" class="video-glow aspect-[16/9] rounded-xl mb-4 relative overflow-hidden flex items-center justify-center text-white bg-cover bg-center cursor-pointer group" style="background-image: url('https://i.ytimg.com/vi/x0ilIP4vH_8/hqdefault.jpg');">
+              <div class="absolute inset-0 bg-black/45 group-hover:bg-black/25 transition"></div>
+              <div class="relative z-10 text-center p-4">
+                <div class="w-12 h-12 rounded-full bg-gold/90 text-black flex items-center justify-center font-black text-lg mx-auto mb-1 shadow-xl transform group-hover:scale-110 transition">▶</div>
+                <span class="text-xs font-bold uppercase tracking-wider text-violet-200">Chuyên Môn & Đẳng Cấp</span>
+              </div>
+              <span class="absolute top-2.5 left-2.5 bg-black/70 text-goldBright border border-gold/40 text-[10px] font-semibold px-2 py-0.5 rounded-md">★ Video Thật (9:16)</span>
+            </div>
+            <h3 class="font-bold text-base text-white mb-1.5">Tại Sao Là Video AI - Cấp Độ Cao?</h3>
+            <p class="text-xs text-silver leading-relaxed mb-4">
+              Tìm hiểu lý do các thương hiệu hàng đầu chuyển dịch sang Video AI thế hệ mới: tiết kiệm 90% chi phí, thời gian trả video siêu tốc.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-gold/30 flex items-center justify-between text-xs">
+            <button onclick="openVideoModal('x0ilIP4vH_8', 'Tại Sao Là Video AI - Cấp Độ Cao', '9:16')" class="text-goldBright font-bold hover:underline flex items-center gap-1">▶ Bấm xem video</button>
+            <a href="#dat-don" class="text-white font-bold hover:text-goldBright flex items-center gap-1 transition">Đặt mẫu này ➔</a>
+          </div>
+        </div>
+
+        <!-- Card 9: Bất Động Sản & Dự Án Nhà Đất -->
+        <div class="glass-card glass-card-hover rounded-2xl p-5 flex flex-col justify-between border border-gold/30">
+          <div>
+            <div class="video-glow aspect-[16/9] bg-gradient-to-br from-[#062420] to-[#1E092B] rounded-xl mb-4 relative overflow-hidden flex items-center justify-center text-white">
+              <div class="absolute inset-0 bg-black/40"></div>
+              <div class="relative z-10 text-center p-4">
+                <span class="text-3xl mb-1 block">🏡</span>
+                <span class="text-xs font-bold uppercase tracking-wider text-emerald-300">Bất Động Sản & Đất Nền</span>
+              </div>
+              <span class="absolute top-2.5 left-2.5 bg-black/70 text-goldBright border border-gold/40 text-[10px] font-semibold px-2 py-0.5 rounded-md">Dựng 3D Phối Cảnh</span>
+            </div>
+            <h3 class="font-bold text-base text-white mb-1.5">Biến Đất Trống Thành Biệt Thự Triệu Đô</h3>
+            <p class="text-xs text-silver leading-relaxed mb-4">
+              Từ ảnh chụp đất thực tế, AI dựng phối cảnh căn biệt thự tương lai với góc quay flycam lướt quanh nhà giúp khách dễ dàng hình dung.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-gold/30 flex items-center justify-between text-xs">
+            <span class="text-goldBright font-semibold">Tỷ lệ: 16:9 / 9:16</span>
+            <a href="#dat-don" class="text-white font-bold hover:text-goldBright flex items-center gap-1 transition">Đặt mẫu này ➔</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Note below showcase -->
+      <div class="mt-10 text-center">
+        <p class="text-xs sm:text-sm text-silver">
+          💡 Bạn muốn xem video demo theo đúng sản phẩm của mình? 
+          <a href="https://zalo.me/0918257209" target="_blank" class="text-goldBright font-bold underline underline-offset-4 hover:text-white transition">
+            Nhắn Zalo Tư Vấn: 0918 257 209 (Thanh Hà) để nhận ngay mẫu video ngành của bạn!
+          </a>
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section: Bảng giá dịch vụ theo thời lượng & Khuyến mãi (MỚI CẬP NHẬT) -->
+  <section id="bang-gia" class="py-16 sm:py-24 border-t border-gold/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <div class="badge-gold inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold uppercase mb-3">
+          Bảng Giá Minh Bạch · Nhận Từ 3 Video
+        </div>
+        <h2 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight mb-4">
+          Bảng Giá Dịch Vụ Theo Thời Lượng Video
+        </h2>
+        <p class="text-sm sm:text-base text-silver">
+          Tối ưu chi phí theo đúng mục tiêu chiến dịch của bạn. Tất cả các video đều trọn gói: Kịch bản chốt đơn + Giọng đọc AI tiếng Việt tự nhiên + Phụ đề động + Nhạc nền bản quyền.
+        </p>
+      </div>
+
+      <!-- 3 Cột Thời Lượng Video -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch mb-10">
+        
+        <!-- Khung 1: 25s - 35s (150k) -->
+        <div class="glass-card glass-card-hover rounded-3xl p-7 flex flex-col justify-between border border-gold/40">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-bold uppercase tracking-wider text-silverMuted">Video Ngắn Nhanh</span>
+              <span class="text-[10px] bg-white/10 text-silver px-2.5 py-1 rounded-full font-semibold border border-white/10">TikTok Shop / Reels</span>
+            </div>
+            
+            <h3 class="text-2xl font-black text-white mb-2">Từ 25 đến 35 Giây</h3>
+            <p class="text-xs text-silverMuted mb-6">Thích hợp hook người xem trong 3s đầu, lướt qua tính năng cốt lõi và thúc đẩy bấm giỏ hàng.</p>
+            
+            <div class="py-5 border-y border-gold/30 mb-6 bg-[#050D18]/70 rounded-2xl px-4 text-center">
+              <div class="text-4xl font-black text-goldBright">150.000<span class="text-base font-bold text-white">đ</span></div>
+              <div class="text-xs text-silver font-semibold mt-1">/ 01 Video hoàn chỉnh</div>
+              <div class="text-[11px] text-silverMuted mt-1.5 border-t border-white/10 pt-1.5">Nhận tối thiểu từ 3 video = <strong class="text-white">450.000đ</strong></div>
+            </div>
+
+            <ul class="space-y-3 text-xs text-silver mb-8">
+              <li class="flex items-start gap-2.5"><span class="text-goldBright font-bold text-sm">✓</span> <span><strong>Thời lượng 25s – 35s:</strong> Nhịp độ nhanh, giữ chân người xem cực tốt.</span></li>
+              <li class="flex items-start gap-2.5"><span class="text-goldBright font-bold text-sm">✓</span> <span>Lên sẵn kịch bản ngắn gọn, tập trung vào điểm mạnh nhất của sản phẩm.</span></li>
+              <li class="flex items-start gap-2.5"><span class="text-goldBright font-bold text-sm">✓</span> <span>Giọng đọc AI tiếng Việt tự nhiên (Nam/Nữ tùy chọn).</span></li>
+              <li class="flex items-start gap-2.5"><span class="text-goldBright font-bold text-sm">✓</span> <span>Tặng kèm <strong class="text-goldBright font-bold">01 KOL AI độc quyền</strong> làm đại diện sản phẩm.</span></li>
+              <li class="flex items-start gap-2.5"><span class="text-goldBright font-bold text-sm">✓</span> <span>Bàn giao Full HD 9:16 trong 24h - 48h.</span></li>
+            </ul>
+          </div>
+
+          <button onclick="selectDurationOption('25s - 35s', 150000)" class="btn-ghost-gold w-full py-3.5 px-4 rounded-xl font-bold text-xs transition">
+            Chọn Gói 25s – 35s (150K) ➔
+          </button>
+        </div>
+
+        <!-- Khung 2: 40s - 60s (215k) - BEST SELLER -->
+        <div class="glass-card rounded-3xl p-7 flex flex-col justify-between border-2 border-goldBright relative transform lg:-translate-y-3 shadow-2xl shadow-gold/25">
+          <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-goldBright to-gold text-[#07131D] text-[11px] font-black uppercase px-4 py-1 rounded-full shadow-lg tracking-wider">
+            ★ ĐƯỢC CHỌN NHIỀU NHẤT ★
+          </div>
+
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-bold uppercase tracking-wider text-goldBright">Chuẩn AIDA Bán Hàng</span>
+              <span class="text-[10px] bg-gold/20 text-goldBright px-2.5 py-1 rounded-full font-bold border border-gold/40">Tối Ưu Chuyển Đổi</span>
+            </div>
+            
+            <h3 class="text-2xl font-black text-white mb-2">Từ 40 đến 60 Giây</h3>
+            <p class="text-xs text-silver mb-6">Độ dài vàng cho video bán hàng: Đầy đủ từ Mở đầu ➔ Nêu nỗi đau ➔ Giải pháp sản phẩm ➔ Kêu gọi mua.</p>
+            
+            <div class="py-5 border-y border-gold/40 mb-6 bg-[#050D18]/90 rounded-2xl px-4 text-center">
+              <div class="text-4xl font-black text-goldBright">215.000<span class="text-base font-bold text-white">đ</span></div>
+              <div class="text-xs text-goldBright font-semibold mt-1">/ 01 Video hoàn chỉnh</div>
+              <div class="text-[11px] text-silver mt-1.5 border-t border-gold/20 pt-1.5">Nhận tối thiểu từ 3 video = <strong class="text-goldBright font-bold">645.000đ</strong></div>
+            </div>
+
+            <ul class="space-y-3 text-xs text-silver mb-8">
+              <li class="flex items-start gap-2.5"><span class="text-goldBright font-bold text-sm">✓</span> <span><strong>Thời lượng 40s – 60s:</strong> Đủ thời gian thuyết phục khách hàng ra quyết định.</span></li>
+              <li class="flex items-start gap-2.5"><span class="text-goldBright font-bold text-sm">✓</span> <span>Kịch bản chuẩn tâm lý học bán hàng AIDA/PAS tỷ lệ chốt đơn cao.</span></li>
+              <li class="flex items-start gap-2.5"><span class="text-goldBright font-bold text-sm">✓</span> <span>Phối cảnh bối cảnh 3D phong phú & hiệu ứng chuyển cảnh mượt mà.</span></li>
+              <li class="flex items-start gap-2.5"><span class="text-goldBright font-bold text-sm">✓</span> <span>Tặng kèm <strong class="text-goldBright font-bold">01 KOL AI độc quyền</strong> làm đại diện thương hiệu.</span></li>
+              <li class="flex items-start gap-2.5"><span class="text-goldBright font-bold text-sm">✓</span> <span>Hỗ trợ chỉnh sửa kịch bản 1-1 chu đáo.</span></li>
+            </ul>
+          </div>
+
+          <button onclick="selectDurationOption('40s - 60s', 215000)" class="btn-gold w-full py-4 px-4 rounded-xl font-extrabold text-sm transition">
+            Chọn Gói 40s – 60s (215K) ➔
+          </button>
+        </div>
+
+        <!-- Khung 3: 65s - 90s (300k) -->
+        <div class="glass-card glass-card-hover rounded-3xl p-7 flex flex-col justify-between border border-gold/40">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-bold uppercase tracking-wider text-silverMuted">Review Chuyên Sâu</span>
+              <span class="text-[10px] bg-white/10 text-silver px-2.5 py-1 rounded-full font-semibold border border-white/10">Storytelling / Kể chuyện</span>
+            </div>
+            
+            <h3 class="text-2xl font-black text-white mb-2">Từ 65 đến 90 Giây</h3>
+            <p class="text-xs text-silverMuted mb-6">Thích hợp làm video review chuyên sâu, giải thích cơ chế sản phẩm sức khỏe, BĐS, kỹ thuật hoặc kể chuyện.</p>
+            
+            <div class="py-5 border-y border-gold/30 mb-6 bg-[#050D18]/70 rounded-2xl px-4 text-center">
+              <div class="text-4xl font-black text-goldBright">300.000<span class="text-base font-bold text-white">đ</span></div>
+              <div class="text-xs text-silver font-semibold mt-1">/ 01 Video hoàn chỉnh</div>
+              <div class="text-[11px] text-silverMuted mt-1.5 border-t border-white/10 pt-1.5">Nhận tối thiểu từ 3 video = <strong class="text-white">900.000đ</strong></div>
+            </div>
+
+            <ul class="space-y-3 text-xs text-silver mb-8">
+              <li class="flex items-start gap-2.5"><span class="text-goldBright font-bold text-sm">✓</span> <span><strong>Thời lượng 65s – 90s:</strong> Trải nghiệm điện ảnh, phân tích chi tiết.</span></li>
+              <li class="flex items-start gap-2.5"><span class="text-goldBright font-bold text-sm">✓</span> <span>Kịch bản phân cảnh chi tiết nhiều bối cảnh khác nhau.</span></li>
+              <li class="flex items-start gap-2.5"><span class="text-goldBright font-bold text-sm">✓</span> <span>Tạo hiệu ứng âm thanh sống động (SFX) & phụ đề động nhấn chữ.</span></li>
+              <li class="flex items-start gap-2.5"><span class="text-goldBright font-bold text-sm">✓</span> <span>Tặng kèm <strong class="text-goldBright font-bold">01 KOL AI độc quyền</strong> làm đại diện thương hiệu.</span></li>
+              <li class="flex items-start gap-2.5"><span class="text-goldBright font-bold text-sm">✓</span> <span>Ưu tiên xử lý nhanh và hỗ trợ hậu mãi dài hạn.</span></li>
+            </ul>
+          </div>
+
+          <button onclick="selectDurationOption('65s - 90s', 300000)" class="btn-ghost-gold w-full py-3.5 px-4 rounded-xl font-bold text-xs transition">
+            Chọn Gói 65s – 90s (300K) ➔
+          </button>
+        </div>
+
+      </div>
+
+      <!-- 2 Khối Quà Tặng & Ưu Đãi Đối Tác Lâu Dài Nổi Bật -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
+        
+        <!-- Khối 1: Tặng KOL AI -->
+        <div class="glass-card rounded-2xl p-6 sm:p-7 border-2 border-goldBright/80 relative overflow-hidden flex items-start gap-4 shadow-xl">
+          <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 text-white flex-shrink-0 flex items-center justify-center text-2xl font-black shadow-lg shadow-pink-500/30">
+            🎁
+          </div>
+          <div>
+            <div class="inline-block text-[10px] bg-goldBright text-[#07131D] font-black uppercase px-2.5 py-0.5 rounded-full mb-1">
+              Quà Tặng Đặc Quyền
+            </div>
+            <h4 class="text-lg font-black text-white mb-1.5">Tặng 01 Nhân Vật KOL AI Độc Quyền</h4>
+            <p class="text-xs text-silver leading-relaxed">
+              Khi đặt từ 3 video bất kỳ, bạn được <strong class="text-goldBright font-bold">tặng miễn phí 100%</strong> một nhân vật người mẫu hoặc chuyên gia ảo (KOL AI) có gương mặt, phong cách và độ tuổi khớp chuẩn với sản phẩm và thương hiệu của bạn để xuất hiện xuyên suốt các video.
+            </p>
+          </div>
+        </div>
+
+        <!-- Khối 2: Ưu đãi Đối tác Lâu dài -->
+        <div class="glass-card rounded-2xl p-6 sm:p-7 border-2 border-goldBright/80 relative overflow-hidden flex items-start gap-4 shadow-xl">
+          <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-goldBright to-gold text-[#07131D] flex-shrink-0 flex items-center justify-center text-2xl font-black shadow-lg shadow-gold/30">
+            💎
+          </div>
+          <div>
+            <div class="inline-block text-[10px] bg-emerald-400 text-[#07131D] font-black uppercase px-2.5 py-0.5 rounded-full mb-1">
+              Chính Sách Đối Tác
+            </div>
+            <h4 class="text-lg font-black text-white mb-1.5">Ưu Đãi Đặc Biệt Cho Khách Hàng Lâu Dài</h4>
+            <p class="text-xs text-silver leading-relaxed">
+              Bạn là chủ shop hay doanh nghiệp có nhu cầu sản xuất video đều đặn mỗi tháng (từ 15 - 30 video trở lên)? Chúng tôi có <strong class="text-goldBright font-bold">mức giá chiết khấu riêng đặc biệt</strong> + Lên kế hoạch kịch bản theo tháng + Ưu tiên xuất file trong ngày.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section: Form Đặt Dịch Vụ & Máy Tính Tính Tiền Tự Động -->
+  <section id="dat-don" class="py-16 sm:py-20 bg-[#040C16]/80 backdrop-blur-md border-t border-gold/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="glass-card rounded-3xl p-6 sm:p-10 border-2 border-gold/60 shadow-2xl">
+        
+        <div class="text-center max-w-xl mx-auto mb-8">
+          <span class="text-xs font-bold text-goldBright uppercase tracking-wider">Đặt Đơn Trực Tiếp (Nhận Từ 3 Video)</span>
+          <h2 class="text-2xl sm:text-3xl font-black text-white mt-1 mb-2">Điền Thông Tin & Chọn Số Lượng Video</h2>
+          <p class="text-xs sm:text-sm text-silver">
+            Chọn khung thời lượng và số lượng bạn cần. Hệ thống tự động tính tổng tiền và tạo mã VietQR thanh toán nhanh chóng.
+          </p>
+        </div>
+
+        <form id="orderForm" onsubmit="handleOrderSubmit(event)" class="space-y-5">
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <!-- Họ và tên -->
+            <div>
+              <label for="fullName" class="block text-xs font-bold text-white uppercase mb-1.5">Họ và tên của bạn *</label>
+              <input type="text" id="fullName" required placeholder="Ví dụ: Nguyễn Văn A" class="w-full px-4 py-3 rounded-xl border border-gold/40 bg-[#07131D]/90 text-white placeholder-silverMuted text-sm focus:outline-none focus:border-goldBright focus:ring-1 focus:ring-goldBright">
+            </div>
+
+            <!-- Số điện thoại / Zalo -->
+            <div>
+              <label for="phoneZalo" class="block text-xs font-bold text-white uppercase mb-1.5">Số điện thoại / Zalo nhận video *</label>
+              <input type="tel" id="phoneZalo" required placeholder="Ví dụ: 0938519369" class="w-full px-4 py-3 rounded-xl border border-gold/40 bg-[#07131D]/90 text-white placeholder-silverMuted text-sm focus:outline-none focus:border-goldBright focus:ring-1 focus:ring-goldBright">
+            </div>
+          </div>
+
+          <!-- Lựa chọn thời lượng & Số lượng video -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            
+            <!-- Khung thời lượng -->
+            <div>
+              <label for="durationSelect" class="block text-xs font-bold text-white uppercase mb-1.5">1. Chọn thời lượng video *</label>
+              <select id="durationSelect" onchange="calculateOrderTotal()" class="w-full px-4 py-3 rounded-xl border border-gold/40 bg-[#07131D]/90 text-goldBright font-semibold text-sm focus:outline-none focus:border-goldBright focus:ring-1 focus:ring-goldBright">
+                <option value="25s - 35s" data-unitprice="150000" class="bg-[#07131D] text-white">25s đến 35s — 150.000đ / video</option>
+                <option value="40s - 60s" data-unitprice="215000" selected class="bg-[#07131D] text-white">40s đến 60s — 215.000đ / video (Phổ biến)</option>
+                <option value="65s - 90s" data-unitprice="300000" class="bg-[#07131D] text-white">65s đến 90s — 300.000đ / video</option>
+              </select>
+            </div>
+
+            <!-- Số lượng video (Tối thiểu 3) -->
+            <div>
+              <label for="quantitySelect" class="block text-xs font-bold text-white uppercase mb-1.5">2. Số lượng video (Nhận từ 3 video) *</label>
+              <select id="quantitySelect" onchange="calculateOrderTotal()" class="w-full px-4 py-3 rounded-xl border border-gold/40 bg-[#07131D]/90 text-goldBright font-semibold text-sm focus:outline-none focus:border-goldBright focus:ring-1 focus:ring-goldBright">
+                <option value="3" selected class="bg-[#07131D] text-white">03 Video (Đơn hàng tối thiểu)</option>
+                <option value="5" class="bg-[#07131D] text-white">05 Video (Đủ 1 tuần đăng kênh)</option>
+                <option value="10" class="bg-[#07131D] text-white">10 Video (Chiến dịch test Ads)</option>
+                <option value="15" class="bg-[#07131D] text-white">15 Video (Ưu đãi đối tác lâu dài)</option>
+                <option value="20" class="bg-[#07131D] text-white">20 Video (Ưu đãi đối tác lâu dài)</option>
+                <option value="30" class="bg-[#07131D] text-white">30 Video (Gói tháng doanh nghiệp)</option>
+              </select>
+            </div>
+
+          </div>
+
+          <!-- Ngành hàng -->
+          <div>
+            <label for="industrySelect" class="block text-xs font-bold text-white uppercase mb-1.5">Ngành hàng / Sản phẩm của bạn</label>
+            <select id="industrySelect" class="w-full px-4 py-3 rounded-xl border border-gold/40 bg-[#07131D]/90 text-white text-sm focus:outline-none focus:border-goldBright focus:ring-1 focus:ring-goldBright">
+              <option value="Thời trang & Phụ kiện" class="bg-[#07131D] text-white">Thời trang & Phụ kiện</option>
+              <option value="Mỹ phẩm & Chăm sóc da" class="bg-[#07131D] text-white">Mỹ phẩm & Chăm sóc da</option>
+              <option value="Đồ gia dụng & Tiện ích" class="bg-[#07131D] text-white">Đồ gia dụng & Tiện ích</option>
+              <option value="Bất động sản & Nhà đất" class="bg-[#07131D] text-white">Bất động sản & Nhà đất</option>
+              <option value="Nội thất & Decor" class="bg-[#07131D] text-white">Nội thất & Decor</option>
+              <option value="Đồ ăn & Thức uống (F&B)" class="bg-[#07131D] text-white">Đồ ăn & Thức uống (F&B)</option>
+              <option value="Phụ kiện Ô tô & Xe máy" class="bg-[#07131D] text-white">Phụ kiện Ô tô & Xe máy</option>
+              <option value="Du lịch & Khách sạn" class="bg-[#07131D] text-white">Du lịch & Khách sạn</option>
+              <option value="Xây thương hiệu cá nhân" class="bg-[#07131D] text-white">Xây thương hiệu cá nhân</option>
+              <option value="Khác" class="bg-[#07131D] text-white">Sản phẩm / Dịch vụ khác</option>
+            </select>
+          </div>
+
+          <!-- Yêu cầu chi tiết & link ảnh -->
+          <div>
+            <label for="notes" class="block text-xs font-bold text-white uppercase mb-1.5">Mô tả sản phẩm, phong cách KOL AI mong muốn hoặc gửi link ảnh</label>
+            <textarea id="notes" rows="3" placeholder="Nhập tên sản phẩm, phong cách người mẫu AI bạn muốn (ví dụ: Nữ 25 tuổi hiện đại, hoặc Nam 30 tuổi chuyên gia...) hoặc dán link ảnh sản phẩm tại đây..." class="w-full px-4 py-3 rounded-xl border border-gold/40 bg-[#07131D]/90 text-white placeholder-silverMuted text-sm focus:outline-none focus:border-goldBright focus:ring-1 focus:ring-goldBright"></textarea>
+          </div>
+
+          <!-- Price summary box & Free Perk Reminder -->
+          <div class="bg-[#050D18]/95 p-5 rounded-2xl border border-gold/50 space-y-3">
+            <div class="flex items-center justify-between">
+              <div>
+                <span class="text-xs text-silverMuted block">Lựa chọn của bạn:</span>
+                <span id="displaySelectedSummary" class="text-sm font-bold text-white">03 Video (Thời lượng 40s - 60s)</span>
+                <span id="displayUnitPrice" class="text-xs text-goldBright block font-semibold">Đơn giá: 215.000đ / video</span>
+              </div>
+              <div class="text-right">
+                <span class="text-xs text-silverMuted block">Tổng thanh toán:</span>
+                <div id="displaySelectedAmount" class="text-3xl font-black text-goldBright">
+                  645.000đ
+                </div>
+              </div>
+            </div>
+
+            <!-- Free KOL Badge in summary -->
+            <div class="pt-3 border-t border-gold/20 flex flex-wrap items-center justify-between gap-2 text-xs">
+              <span class="flex items-center gap-1.5 text-emerald-400 font-semibold">
+                <span>🎁</span> <span>Đã bao gồm: <strong>Tặng 01 KOL AI độc quyền</strong> phù hợp sản phẩm</span>
+              </span>
+              <span id="longTermPartnerBadge" class="hidden text-goldBright font-bold bg-gold/15 px-2.5 py-0.5 rounded-full border border-gold/40 text-[11px]">
+                ★ Kích hoạt Ưu Đãi Đối Tác Lâu Dài
+              </span>
+            </div>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="btn-gold w-full py-4 rounded-xl font-black text-base shadow-lg transition flex items-center justify-center gap-2">
+            <span>Tiếp Tục ➔ Quét Mã VietQR Thanh Toán</span>
+            <svg class="w-5 h-5 stroke-current" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z"/></svg>
+          </button>
+
+          <p class="text-center text-[11px] text-silverMuted">
+            🔒 Thông tin của bạn được bảo mật tuyệt đối. Chúng tôi liên hệ qua Zalo trong vòng 10 phút để xác nhận đơn.
+          </p>
+
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Modal Thanh Toán VietQR (Dark Mode + Card QR trắng để quét cực nét) -->
+  <dialog id="paymentModal" class="rounded-3xl p-0 max-w-lg w-[calc(100%-32px)] backdrop:bg-black/85 backdrop:backdrop-blur-md border-2 border-gold shadow-2xl overflow-hidden bg-[#07131D] text-white">
+    <div class="p-6 sm:p-8">
+      
+      <!-- Modal Header -->
+      <div class="flex items-center justify-between pb-4 border-b border-gold/30 mb-5">
+        <div>
+          <h3 class="text-lg font-black text-white">Thanh Toán Đơn Hàng Video AI</h3>
+          <p class="text-xs text-silverMuted">Quét mã bằng app ngân hàng bất kỳ để hoàn tất</p>
+        </div>
+        <button onclick="closeModal()" class="w-8 h-8 rounded-full bg-gold/10 hover:bg-gold/20 text-goldBright border border-gold/40 flex items-center justify-center font-bold text-lg transition">
+          ✕
+        </button>
+      </div>
+
+      <!-- QR Code Container (Nền trắng cho QR để app quét dễ dàng) -->
+      <div class="glass-card p-4 rounded-2xl border border-gold/40 text-center mb-5">
+        <div class="text-xs text-silver font-semibold mb-2">Quét mã VietQR (Tự động điền tiền & nội dung)</div>
+        
+        <div class="bg-white p-3 rounded-xl border-2 border-gold inline-block shadow-md">
+          <img id="qrImage" src="" alt="VietQR Thanh Toán" class="w-56 h-56 mx-auto object-contain">
+        </div>
+
+        <div class="mt-3">
+          <div class="text-xs text-silverMuted">Số tiền thanh toán:</div>
+          <div id="modalAmountText" class="text-2xl font-black text-goldBright">645.000đ</div>
+        </div>
+      </div>
+
+      <!-- Bank Transfer Details -->
+      <div class="bg-[#050D18] p-4 rounded-xl border border-gold/30 text-xs space-y-2 mb-5">
+        <div class="flex items-center justify-between">
+          <span class="text-silverMuted">Ngân hàng:</span>
+          <span class="font-bold text-white">VietinBank (ICB)</span>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="text-silverMuted">Số tài khoản:</span>
+          <div class="flex items-center gap-2">
+            <span class="font-bold text-goldBright text-sm">100888653388</span>
+            <button onclick="copyText('100888653388', 'Đã chép số tài khoản!')" class="px-2 py-0.5 bg-gold/15 text-goldBright border border-gold/40 rounded text-[10px] font-bold hover:bg-gold/25 transition">Chép</button>
+          </div>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="text-silverMuted">Chủ tài khoản:</span>
+          <span class="font-bold text-white">HO KINH DOANH TIENKHANH ACADEMY</span>
+        </div>
+        <div class="flex items-center justify-between pt-1 border-t border-gold/20">
+          <span class="text-silverMuted">Nội dung chuyển:</span>
+          <div class="flex items-center gap-2">
+            <span id="modalMemoText" class="font-bold text-goldBright font-mono text-xs">VAI 0938519369 40S 3V</span>
+            <button onclick="copyMemo()" class="px-2 py-0.5 bg-gold/15 text-goldBright border border-gold/40 rounded text-[10px] font-bold hover:bg-gold/25 transition">Chép</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Action Buttons -->
+      <div class="space-y-2">
+        <a id="btnSendZaloConfirm" href="https://zalo.me/0938519369" target="_blank" class="w-full py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md transition">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.04 2 11.03c0 2.87 1.48 5.43 3.79 7.07l-.99 3.65c-.1.38.27.71.63.56l4.22-1.78c.76.19 1.55.29 2.35.29 5.52 0 10-4.04 10-9.03S17.52 2 12 2z"/></svg>
+          Đã Chuyển Khoản ➔ Nhắn Zalo Xác Nhận
+        </a>
+        <button onclick="closeModal()" class="w-full py-2.5 rounded-xl bg-white/10 hover:bg-white/15 text-silver font-semibold text-xs transition border border-white/10">
+          Đóng cửa sổ này
+        </button>
+      </div>
+
+      <div id="copyNotification" class="hidden text-center text-xs font-semibold text-emerald-400 mt-2">
+        Đã chép vào clipboard!
+      </div>
+
+    </div>
+  </dialog>
+
+  <!-- Modal Quản Lý Kết Nối Google Sheets & Danh Sách SĐT Khách Hàng (Dành cho Tiến Khanh) -->
+  <dialog id="sheetModal" class="rounded-3xl p-0 max-w-xl w-[calc(100%-32px)] backdrop:bg-black/85 backdrop:backdrop-blur-md border-2 border-gold shadow-2xl overflow-hidden bg-[#07131D] text-white">
+    <div class="p-6 sm:p-8">
+      
+      <div class="flex items-center justify-between pb-4 border-b border-gold/30 mb-5">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-gold/15 border border-gold/40 text-goldBright flex items-center justify-center text-xl">
+            📊
+          </div>
+          <div>
+            <h3 class="text-lg font-black text-white">Cấu Hình Kết Nối Google Sheet</h3>
+            <p class="text-xs text-silverMuted">Tự động gom SĐT & thông tin đơn hàng của khách khi điền form</p>
+          </div>
+        </div>
+        <button onclick="closeSheetModal()" class="w-8 h-8 rounded-full bg-gold/10 hover:bg-gold/20 text-goldBright border border-gold/40 flex items-center justify-center font-bold text-lg transition">
+          ✕
+        </button>
+      </div>
+
+      <div class="space-y-4 text-xs">
+        
+        <!-- Input URL Google Apps Script -->
+        <div>
+          <label class="block font-bold text-goldBright uppercase mb-1.5">
+            Đường dẫn Google Apps Script Web App URL:
+          </label>
+          <input id="inputSheetUrl" type="url" placeholder="https://script.google.com/macros/s/AKfycb.../exec" class="w-full px-4 py-3 rounded-xl border border-gold/40 bg-[#050D18] text-white text-xs font-mono focus:outline-none focus:border-goldBright focus:ring-1 focus:ring-goldBright">
+          <p class="text-[11px] text-silverMuted mt-1 leading-relaxed">
+            💡 Dán URL bạn nhận được ở <strong>Bước 3</strong> (khi bấm <em>Triển khai ➔ Ứng dụng web</em> trên Google Sheet).
+          </p>
+        </div>
+
+        <!-- Buttons Thao Tác -->
+        <div class="flex flex-wrap gap-2 pt-1">
+          <button onclick="saveSheetUrl()" class="btn-gold px-4 py-2.5 rounded-xl font-bold text-xs flex items-center gap-1.5 shadow-md">
+            <span>💾</span> <span>Lưu Kết Nối</span>
+          </button>
+          <button onclick="sendTestLeadToSheet()" class="px-4 py-2.5 rounded-xl bg-emerald-600/25 hover:bg-emerald-600/40 text-emerald-300 border border-emerald-500/50 font-bold text-xs flex items-center gap-1.5 transition shadow-sm">
+            <span>🚀</span> <span>Gửi Thử 1 Đơn Lên Sheet</span>
+          </button>
+          <button onclick="clearSavedLeads()" class="px-3.5 py-2.5 rounded-xl bg-red-600/20 hover:bg-red-600/30 text-rose-300 border border-rose-500/30 font-semibold text-xs transition">
+            Xóa danh sách tạm
+          </button>
+        </div>
+
+        <!-- Trạng thái thông báo -->
+        <div id="sheetStatusMsg" class="hidden p-3 rounded-xl text-xs font-semibold"></div>
+
+        <!-- Danh sách khách hàng đã gom dự phòng cục bộ (Offline / Local) -->
+        <div class="pt-4 border-t border-gold/25">
+          <div class="flex items-center justify-between mb-2">
+            <span class="font-bold text-white uppercase text-[11px] flex items-center gap-1.5">
+              <span>👥</span> <span>Danh sách khách điền form gần nhất (Bộ nhớ máy):</span>
+            </span>
+            <span id="savedLeadsCount" class="badge-gold px-2.5 py-0.5 rounded-full text-[10px] font-bold">0 khách</span>
+          </div>
+          
+          <div id="savedLeadsList" class="max-h-48 overflow-y-auto space-y-2 pr-1 text-[11px]">
+            <!-- Render danh sách khách điền form -->
+          </div>
+        </div>
+
+        <div class="pt-3 border-t border-gold/20 flex items-center justify-between text-[11px] text-silverMuted">
+          <span>Tài liệu: <strong class="text-white">huong-dan-ket-noi-google-sheet.md</strong></span>
+          <button onclick="closeSheetModal()" class="text-goldBright hover:underline font-bold">Xong & Đóng</button>
+        </div>
+
+      </div>
+
+    </div>
+  </dialog>
+
+  <!-- Modal Xem Video Mẫu Trực Tiếp (Video Lightbox HD Chuẩn 9:16 Shorts & 16:9) -->
+  <dialog id="videoPlayerModal" class="rounded-3xl p-0 max-w-sm sm:max-w-md w-[calc(100%-32px)] backdrop:bg-black/90 backdrop:backdrop-blur-md border-2 border-gold shadow-2xl overflow-hidden bg-[#07131D] text-white">
+    <div class="p-4 sm:p-5">
+      
+      <div class="flex items-center justify-between pb-3 border-b border-gold/30 mb-3">
+        <div class="flex items-center gap-2">
+          <span class="w-3 h-3 rounded-full bg-red-500 animate-pulse"></span>
+          <h3 id="modalVideoTitle" class="text-sm font-black text-white truncate max-w-[240px]">Xem Video Mẫu AI</h3>
+        </div>
+        <button onclick="closeVideoModal()" class="w-8 h-8 rounded-full bg-gold/10 hover:bg-gold/20 text-goldBright border border-gold/40 flex items-center justify-center font-bold text-lg transition">
+          ✕
+        </button>
+      </div>
+
+      <!-- Video Container (Tự động thích ứng tỷ lệ 9:16 hoặc 16:9) -->
+      <div id="modalVideoContainer" class="relative aspect-[9/16] w-full max-w-[280px] sm:max-w-[320px] mx-auto rounded-2xl overflow-hidden bg-black border border-gold/40 shadow-2xl">
+        <iframe id="modalVideoIframe" class="w-full h-full" src="" title="Video Mẫu AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <!-- Action buttons -->
+      <div class="mt-4 flex flex-col gap-2">
+        <a href="#dat-don" onclick="closeVideoModal()" class="btn-gold w-full py-3 rounded-xl font-bold text-xs text-center shadow-md">
+          Đặt Làm Video Giống Mẫu Này ➔
+        </a>
+        <div class="flex items-center justify-between px-1 text-[11px]">
+          <a id="modalVideoYtLink" href="#" target="_blank" rel="noopener noreferrer" class="text-goldBright hover:underline">
+            Mở xem trên YouTube ➔
+          </a>
+          <button onclick="closeVideoModal()" class="text-silver hover:text-white">
+            Đóng cửa sổ
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </dialog>
+
+  <!-- Section: FAQ (Hỏi đáp thường gặp) -->
+  <section id="faq" class="py-16 sm:py-20 border-t border-gold/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-bold text-goldBright uppercase tracking-wider">Giải Đáp Thắc Mắc</span>
+        <h2 class="text-2xl sm:text-3xl font-black text-white mt-1 mb-2">Câu Hỏi Thường Gặp</h2>
+        <p class="text-xs sm:text-sm text-silver">Tất cả những điều bạn cần biết trước khi đặt sản xuất video AI tại TIENKHANH.ACADEMY.</p>
+      </div>
+
+      <div class="space-y-4">
+        
+        <details class="group glass-card rounded-2xl p-5 transition">
+          <summary class="flex items-center justify-between cursor-pointer font-bold text-sm sm:text-base text-white">
+            <span>Tại sao lại nhận làm tối thiểu từ 3 video?</span>
+            <span class="w-6 h-6 rounded-full bg-gold/15 text-goldBright border border-gold/30 flex items-center justify-center font-bold text-sm group-open:rotate-180 transition transform">↓</span>
+          </summary>
+          <div class="mt-3 text-xs sm:text-sm text-silver leading-relaxed pt-3 border-t border-gold/20">
+            Để đảm bảo chất lượng, chúng tôi phải dành thời gian nghiên cứu sản phẩm, tạo và đồng bộ nhân vật KOL AI riêng biệt, đồng thời lên kịch bản chuẩn cho thương hiệu của bạn. Đặt từ 3 video trở lên vừa giúp bạn có đủ nội dung để đăng tuần hoàn hoặc chạy thử nghiệm A/B Ads hiệu quả, vừa giúp chúng tôi tặng kèm trọn vẹn nhân vật KOL AI độc quyền cho bạn mà không phát sinh thêm bất kỳ chi phí nào.
+          </div>
+        </details>
+
+        <details class="group glass-card rounded-2xl p-5 transition">
+          <summary class="flex items-center justify-between cursor-pointer font-bold text-sm sm:text-base text-white">
+            <span>Quà tặng KOL AI phù hợp sản phẩm nghĩa là gì?</span>
+            <span class="w-6 h-6 rounded-full bg-gold/15 text-goldBright border border-gold/30 flex items-center justify-center font-bold text-sm group-open:rotate-180 transition transform">↓</span>
+          </summary>
+          <div class="mt-3 text-xs sm:text-sm text-silver leading-relaxed pt-3 border-t border-gold/20">
+            Tùy theo sản phẩm của bạn là thời trang nữ, mỹ phẩm, đồ gia dụng hay bất động sản, chúng tôi sẽ thiết kế một nhân vật AI nam hoặc nữ (độ tuổi, nét mặt, phong thái) phù hợp hoàn hảo với tệp khách hàng tiềm năng của bạn. Nhân vật này sẽ đóng vai trò người mẫu trải nghiệm hoặc chuyên gia tư vấn trong video của bạn.
+          </div>
+        </details>
+
+        <details class="group glass-card rounded-2xl p-5 transition">
+          <summary class="flex items-center justify-between cursor-pointer font-bold text-sm sm:text-base text-white">
+            <span>Chính sách ưu đãi cho khách hàng lâu dài như thế nào?</span>
+            <span class="w-6 h-6 rounded-full bg-gold/15 text-goldBright border border-gold/30 flex items-center justify-center font-bold text-sm group-open:rotate-180 transition transform">↓</span>
+          </summary>
+          <div class="mt-3 text-xs sm:text-sm text-silver leading-relaxed pt-3 border-t border-gold/20">
+            Nếu bạn là chủ shop, agency hoặc doanh nghiệp cần đặt video theo tháng định kỳ (từ 15 - 30 video trở lên), chúng tôi có mức chiết khấu cực kỳ ưu đãi, hỗ trợ lên lịch nội dung trọn tháng, đồng bộ nhận diện thương hiệu và cam kết ưu tiên thời gian trả file nhanh nhất. Hãy liên hệ Zalo 0938 519 369 để nhận báo giá đối tác lâu dài!
+          </div>
+        </details>
+
+        <details class="group glass-card rounded-2xl p-5 transition">
+          <summary class="flex items-center justify-between cursor-pointer font-bold text-sm sm:text-base text-white">
+            <span>Tôi chỉ có ảnh sản phẩm chụp bằng điện thoại thì có làm video được không?</span>
+            <span class="w-6 h-6 rounded-full bg-gold/15 text-goldBright border border-gold/30 flex items-center justify-center font-bold text-sm group-open:rotate-180 transition transform">↓</span>
+          </summary>
+          <div class="mt-3 text-xs sm:text-sm text-silver leading-relaxed pt-3 border-t border-gold/20">
+            Hoàn toàn được! Bạn chỉ cần gửi ảnh sản phẩm rõ nét chụp bằng camera thường của điện thoại. Công nghệ AI của chúng tôi sẽ tách nền, tái tạo ánh sáng studio, đưa sản phẩm vào bối cảnh 3D và cho người mẫu AI cầm/sử dụng sản phẩm sinh động.
+          </div>
+        </details>
+
+        <details class="group glass-card rounded-2xl p-5 transition">
+          <summary class="flex items-center justify-between cursor-pointer font-bold text-sm sm:text-base text-white">
+            <span>Tôi có được yêu cầu chỉnh sửa nếu chưa ưng ý không?</span>
+            <span class="w-6 h-6 rounded-full bg-gold/15 text-goldBright border border-gold/30 flex items-center justify-center font-bold text-sm group-open:rotate-180 transition transform">↓</span>
+          </summary>
+          <div class="mt-3 text-xs sm:text-sm text-silver leading-relaxed pt-3 border-t border-gold/20">
+            Có! Chúng tôi hỗ trợ chỉnh sửa câu từ, đổi giọng đọc hoặc điều chỉnh nhịp điệu video theo phản hồi của bạn để đảm bảo video đầu ra đạt chất lượng tốt nhất trước khi đưa vào chạy quảng cáo.
+          </div>
+        </details>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA Banner Cuối Trang (Dark Mode + Gold Accent) -->
+  <section class="py-16 bg-[#040C16]/90 backdrop-blur-md border-t border-gold/30 text-white relative overflow-hidden">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      
+      <div class="w-16 h-16 rounded-2xl bg-gold/15 border border-gold/40 text-goldBright flex items-center justify-center mx-auto mb-6 text-2xl font-black shadow-lg shadow-gold/20">
+        ⚡
+      </div>
+
+      <h2 class="text-3xl sm:text-5xl font-black tracking-tight mb-4 leading-tight text-white">
+        Sẵn Sàng Biến Sản Phẩm Của Bạn <br class="hidden sm:inline">
+        Thành Video Triệu View Ngay Hôm Nay?
+      </h2>
+
+      <p class="text-sm sm:text-base text-silver max-w-2xl mx-auto mb-8 font-normal">
+        Chỉ từ 150K/video, nhận tối thiểu từ 3 video và được tặng trọn gói nhân vật KOL AI độc quyền. Hãy bắt đầu ngay để bứt phá doanh số!
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <a href="#dat-don" class="btn-gold w-full sm:w-auto inline-flex items-center justify-center gap-2 font-black px-8 py-4 rounded-xl shadow-xl transition text-base">
+          Đặt Dịch Vụ Ngay ➔
+        </a>
+        <a href="https://zalo.me/0918257209" target="_blank" class="btn-ghost-gold w-full sm:w-auto inline-flex items-center justify-center gap-2 font-bold px-7 py-4 rounded-xl transition text-base">
+          Tư Vấn Zalo: 0918 257 209 (Thanh Hà)
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer (Dark High-Contrast) -->
+  <footer class="bg-[#030912] border-t border-gold/30 py-12 text-xs text-silverMuted">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center pb-8 border-b border-gold/20">
+        
+        <div>
+          <div class="font-black text-base text-white mb-1">TIENKHANH.ACADEMY</div>
+          <p class="leading-relaxed text-silver">
+            Dịch vụ sản xuất video AI ngắn chuyên nghiệp cho người bán hàng online & doanh nghiệp Việt Nam.
+          </p>
+        </div>
+
+        <div>
+          <div class="font-bold text-white mb-1">Thông Tin Liên Hệ</div>
+          <p class="text-silver">Zalo Tư Vấn: <strong class="text-goldBright font-bold">0918 257 209</strong> (Thanh Hà)</p>
+          <p class="text-silver">Hotline / Zalo: <strong class="text-white font-bold">0938 519 369</strong> (Tiến Khanh)</p>
+          <p class="text-silver">Email: <strong class="text-white">tienkhanh2838@gmail.com</strong></p>
+        </div>
+
+        <div>
+          <div class="font-bold text-white mb-1">Nhận diện thương hiệu</div>
+          <div class="flex items-center gap-3 mt-1">
+            <img src="assets/brand-tien-khanh-video-ai-vibe-coding.png" alt="Tien Khanh Brand" class="w-10 h-10 rounded-full border-2 border-goldBright">
+            <div>
+              <div class="font-bold text-white">Tien Khanh</div>
+              <div class="text-[11px] text-goldBright font-semibold">Video AI & Vibe Coding</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px]">
+        <div>© 2026 TIENKHANH.ACADEMY · Toàn quyền bảo lưu.</div>
+        <div class="flex flex-wrap gap-4 text-silver items-center">
+          <a href="#loi-ich" class="hover:text-goldBright transition">Lợi ích</a>
+          <a href="#thu-vien-mau" class="hover:text-goldBright transition">Thư viện mẫu</a>
+          <a href="#bang-gia" class="hover:text-goldBright transition">Bảng giá</a>
+          <a href="#dat-don" class="hover:text-goldBright transition">Đặt đơn</a>
+          <span class="text-white/20">|</span>
+          <button onclick="openSheetModal()" class="text-goldBright/90 hover:text-goldBright transition inline-flex items-center gap-1 font-semibold underline underline-offset-2">
+            📊 Cấu Hình Google Sheet
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Mobile Sticky Bar & Zalo Button (Dark Mode + Gold) -->
+  <div class="fixed bottom-0 left-0 right-0 z-30 sm:hidden bg-[#07131D]/95 backdrop-blur-md border-t border-gold/40 p-3 flex items-center justify-between gap-3 shadow-2xl">
+    <div class="text-left">
+      <div class="text-[10px] text-silverMuted leading-none">Chỉ từ</div>
+      <div class="text-base font-black text-goldBright leading-tight">150.000đ/v</div>
+      <div class="text-[9px] text-silverMuted">Từ 3 video</div>
+    </div>
+    <a href="#dat-don" class="btn-gold flex-1 py-2.5 px-4 rounded-xl font-black text-xs text-center shadow-md">
+      Đặt Video Ngay ➔
+    </a>
+    <a href="https://zalo.me/0918257209" target="_blank" class="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center font-bold shadow-md">
+      <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.04 2 11.03c0 2.87 1.48 5.43 3.79 7.07l-.99 3.65c-.1.38.27.71.63.56l4.22-1.78c.76.19 1.55.29 2.35.29 5.52 0 10-4.04 10-9.03S17.52 2 12 2z"/></svg>
+    </a>
+  </div>
+
+  <!-- Desktop Floating Zalo Button -->
+  <a href="https://zalo.me/0918257209" target="_blank" class="hidden sm:flex fixed bottom-6 right-6 z-30 items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 text-white font-bold text-xs px-4 py-3 rounded-full shadow-xl hover:shadow-2xl transition transform hover:scale-105 border border-blue-400/40">
+    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.04 2 11.03c0 2.87 1.48 5.43 3.79 7.07l-.99 3.65c-.1.38.27.71.63.56l4.22-1.78c.76.19 1.55.29 2.35.29 5.52 0 10-4.04 10-9.03S17.52 2 12 2z"/></svg>
+    <span>Zalo Tư Vấn: 0918 257 209 (Thanh Hà)</span>
+  </a>
+
+  <!-- Script Xử Lý Tính Giá Theo Thời Lượng & Số Lượng, Tạo VietQR & Modal & Google Sheet -->
+  <script>
+    // =========================================================================
+    // CẤU HÌNH TỰ ĐỘNG GOM SĐT VÀ ĐƠN HÀNG VÀO GOOGLE SHEETS
+    // =========================================================================
+    let GOOGLE_SHEET_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbw9e10PGGd2ErPMV5ZbRT241hf-GDsg09N1S1efo-LSO0ubJoFVEK0isWFCvyJABeik/exec";
+
+    function getActiveSheetUrl() {
+      return (GOOGLE_SHEET_WEB_APP_URL && GOOGLE_SHEET_WEB_APP_URL.trim() !== "")
+        ? GOOGLE_SHEET_WEB_APP_URL.trim()
+        : (localStorage.getItem('tienkhanh_google_sheet_url') || "").trim();
+    }
+
+    let currentDuration = "40s - 60s";
+    let currentUnitPrice = 215000;
+    let currentQuantity = 3;
+    let currentTotalAmount = 645000;
+
+    // Khởi tạo giao diện khi tải trang
+    document.addEventListener('DOMContentLoaded', () => {
+      calculateOrderTotal();
+      renderSavedLeads();
+    });
+
+    // Chọn thời lượng từ các nút bấm ở Bảng giá
+    function selectDurationOption(durationLabel, unitPrice) {
+      currentDuration = durationLabel;
+      currentUnitPrice = unitPrice;
+
+      const durationSelect = document.getElementById('durationSelect');
+      durationSelect.value = durationLabel;
+
+      calculateOrderTotal();
+
+      // Cuộn tới form đặt đơn mượt mà
+      document.getElementById('dat-don').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Tính toán tổng tiền động theo thời lượng & số lượng
+    function calculateOrderTotal() {
+      const durationSelect = document.getElementById('durationSelect');
+      const selectedDurationOption = durationSelect.options[durationSelect.selectedIndex];
+      currentDuration = durationSelect.value;
+      currentUnitPrice = parseInt(selectedDurationOption.getAttribute('data-unitprice'), 10);
+
+      const quantitySelect = document.getElementById('quantitySelect');
+      currentQuantity = parseInt(quantitySelect.value, 10);
+
+      currentTotalAmount = currentUnitPrice * currentQuantity;
+
+      // Cập nhật giao diện tóm tắt
+      document.getElementById('displaySelectedSummary').innerText = `${currentQuantity < 10 ? '0' + currentQuantity : currentQuantity} Video (Thời lượng ${currentDuration})`;
+      document.getElementById('displayUnitPrice').innerText = `Đơn giá: ${currentUnitPrice.toLocaleString('vi-VN')}đ / video`;
+      document.getElementById('displaySelectedAmount').innerText = currentTotalAmount.toLocaleString('vi-VN') + 'đ';
+
+      // Hiển thị badge đối tác lâu dài nếu số lượng >= 10
+      const partnerBadge = document.getElementById('longTermPartnerBadge');
+      if (currentQuantity >= 10) {
+        partnerBadge.classList.remove('hidden');
+      } else {
+        partnerBadge.classList.add('hidden');
+      }
+    }
+
+    // Xử lý gửi form và mở modal VietQR + Đồng bộ Google Sheets
+    function handleOrderSubmit(e) {
+      e.preventDefault();
+      
+      const fullName = document.getElementById('fullName').value.trim();
+      const phoneZalo = document.getElementById('phoneZalo').value.trim();
+      const industry = document.getElementById('industrySelect').value;
+      const notes = document.getElementById('notes').value.trim();
+
+      // Rút gọn mã nội dung thanh toán để VietQR dễ đọc
+      let durCode = "40S";
+      if (currentDuration === "25s - 35s") durCode = "30S";
+      if (currentDuration === "65s - 90s") durCode = "75S";
+
+      const cleanPhone = phoneZalo.replace(/\D/g, '').slice(-9);
+      const memo = `VAI ${cleanPhone} ${durCode} ${currentQuantity}V`.trim();
+
+      // Gom dữ liệu đơn hàng
+      const orderData = {
+        fullName: fullName || "Khách hàng",
+        phoneZalo: phoneZalo,
+        duration: currentDuration,
+        quantity: currentQuantity,
+        totalAmount: currentTotalAmount,
+        industry: industry,
+        notes: notes,
+        memo: memo,
+        submittedAt: new Date().toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' })
+      };
+
+      // 1. LƯU BẢN SAO DỰ PHÒNG VÀO LOCALSTORAGE (Không bao giờ sợ mất SĐT khách)
+      saveLeadLocally(orderData);
+
+      // 2. TỰ ĐỘNG GỬI SANG GOOGLE SHEETS BẤT ĐỒNG BỘ
+      const sheetUrl = getActiveSheetUrl();
+      if (sheetUrl && sheetUrl.startsWith('http')) {
+        console.log('🔄 Đang gửi dữ liệu khách hàng lên Google Sheet:', sheetUrl);
+        fetch(sheetUrl, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(orderData)
+        }).then(() => {
+          console.log('✅ Đã đồng bộ số điện thoại khách hàng lên Google Sheets thành công!');
+        }).catch((err) => {
+          console.error('❌ Lỗi khi gửi dữ liệu sang Google Sheet:', err);
+        });
+      } else {
+        console.warn('⚠️ Chưa cấu hình Web App URL Google Sheet. Dữ liệu tạm thời lưu an toàn trong trình duyệt (Local Leads).');
+      }
+
+      // 3. TẠO MÃ VIETQR VÀ MỞ MODAL THANH TOÁN
+      const qrUrl = `https://img.vietqr.io/image/ICB-100888653388-compact2.png?amount=${currentTotalAmount}&addInfo=${encodeURIComponent(memo)}&accountName=${encodeURIComponent('HO KINH DOANH TIENKHANH ACADEMY')}`;
+
+      document.getElementById('qrImage').src = qrUrl;
+      document.getElementById('modalAmountText').innerText = currentTotalAmount.toLocaleString('vi-VN') + 'đ';
+      document.getElementById('modalMemoText').innerText = memo;
+
+      const zaloMessage = encodeURIComponent(`Chào bạn Thanh Hà (TIENKHANH.ACADEMY), tôi vừa đặt đơn làm ${currentQuantity} video (${currentDuration}) với tổng tiền: ${currentTotalAmount.toLocaleString('vi-VN')}đ cho ngành: ${industry}. Tên: ${fullName}, SĐT: ${phoneZalo}. Nội dung chuyển khoản: ${memo}. Nhờ bạn xác nhận và tư vấn KOL AI giúp tôi nhé!`);
+      document.getElementById('btnSendZaloConfirm').href = `https://zalo.me/0918257209?text=${zaloMessage}`;
+
+      // Mở modal VietQR
+      const modal = document.getElementById('paymentModal');
+      if (typeof modal.showModal === 'function') {
+        modal.showModal();
+      } else {
+        modal.setAttribute('open', '');
+      }
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('paymentModal');
+      if (typeof modal.close === 'function') {
+        modal.close();
+      } else {
+        modal.removeAttribute('open');
+      }
+    }
+
+    // =========================================================================
+    // HÀM MỞ / ĐÓNG MODAL XEM VIDEO MẪU HD (TỰ ĐỘNG PHÁT VÀ DỪNG)
+    // =========================================================================
+    function openVideoModal(videoId, title, ratio) {
+      const modal = document.getElementById('videoPlayerModal');
+      const iframe = document.getElementById('modalVideoIframe');
+      const titleEl = document.getElementById('modalVideoTitle');
+      const ytLink = document.getElementById('modalVideoYtLink');
+      const container = document.getElementById('modalVideoContainer');
+
+      if (titleEl) titleEl.innerText = title;
+      if (ytLink) ytLink.href = `https://www.youtube.com/watch?v=${videoId}`;
+
+      if (container) {
+        if (ratio === '16:9') {
+          container.className = "relative aspect-[16/9] w-full max-w-sm sm:max-w-md mx-auto rounded-2xl overflow-hidden bg-black border border-gold/40 shadow-2xl";
+        } else {
+          container.className = "relative aspect-[9/16] w-full max-w-[280px] sm:max-w-[320px] mx-auto rounded-2xl overflow-hidden bg-black border border-gold/40 shadow-2xl";
+        }
+      }
+
+      if (iframe) {
+        iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0&playsinline=1`;
+      }
+
+      if (typeof modal.showModal === 'function') {
+        modal.showModal();
+      } else {
+        modal.setAttribute('open', '');
+      }
+    }
+
+    function closeVideoModal() {
+      const modal = document.getElementById('videoPlayerModal');
+      const iframe = document.getElementById('modalVideoIframe');
+      if (iframe) {
+        iframe.src = ""; // Dừng phát âm thanh khi đóng popup
+      }
+      if (typeof modal.close === 'function') {
+        modal.close();
+      } else {
+        modal.removeAttribute('open');
+      }
+    }
+
+    function copyText(text, notifyMsg) {
+      navigator.clipboard.writeText(text).then(() => {
+        showCopyNotification(notifyMsg);
+      }).catch(() => {
+        alert(text);
+      });
+    }
+
+    function copyMemo() {
+      const memo = document.getElementById('modalMemoText').innerText;
+      copyText(memo, 'Đã chép nội dung chuyển khoản!');
+    }
+
+    function showCopyNotification(msg) {
+      const el = document.getElementById('copyNotification');
+      el.innerText = msg;
+      el.classList.remove('hidden');
+      setTimeout(() => {
+        el.classList.add('hidden');
+      }, 2500);
+    }
+
+    // =========================================================================
+    // CÁC HÀM QUẢN LÝ GOOGLE SHEETS & DANH SÁCH KHÁCH HÀNG
+    // =========================================================================
+
+    function saveLeadLocally(lead) {
+      try {
+        const localList = JSON.parse(localStorage.getItem('tienkhanh_saved_leads') || '[]');
+        localList.unshift(lead);
+        localStorage.setItem('tienkhanh_saved_leads', JSON.stringify(localList.slice(0, 100)));
+        renderSavedLeads();
+      } catch (e) {
+        console.warn('Lỗi lưu lead cục bộ:', e);
+      }
+    }
+
+    function renderSavedLeads() {
+      const leadsListContainer = document.getElementById('savedLeadsList');
+      const leadsCountBadge = document.getElementById('savedLeadsCount');
+      if (!leadsListContainer || !leadsCountBadge) return;
+
+      try {
+        const localList = JSON.parse(localStorage.getItem('tienkhanh_saved_leads') || '[]');
+        leadsCountBadge.innerText = `${localList.length} khách`;
+
+        if (localList.length === 0) {
+          leadsListContainer.innerHTML = '<div class="text-silverMuted italic p-3 text-center bg-[#050D18] rounded-xl border border-white/5">Chưa có khách hàng nào điền form trên máy này.</div>';
+          return;
+        }
+
+        leadsListContainer.innerHTML = localList.slice(0, 15).map((item, idx) => `
+          <div class="p-2.5 rounded-xl bg-[#050D18] border border-gold/30 flex items-center justify-between gap-2">
+            <div>
+              <div class="font-bold text-white">${item.fullName || 'Khách lẻ'} <span class="text-goldBright font-mono ml-1">${item.phoneZalo || 'Chưa có SĐT'}</span></div>
+              <div class="text-[10px] text-silverMuted">${item.quantity} video (${item.duration}) · ${parseInt(item.totalAmount || 0).toLocaleString('vi-VN')}đ · Ngành: ${item.industry || 'Chung'}</div>
+            </div>
+            <div class="text-right">
+              <span class="text-[9px] text-silver block">${item.submittedAt ? item.submittedAt.split(' ')[1] : ''}</span>
+              <a href="https://zalo.me/${(item.phoneZalo || '').replace(/\D/g, '')}" target="_blank" class="text-[10px] text-blue-400 font-bold hover:underline">Zalo ➔</a>
+            </div>
+          </div>
+        `).join('');
+      } catch (e) {
+        leadsListContainer.innerHTML = '<div class="text-red-400 p-2 text-center">Lỗi đọc danh sách máy.</div>';
+      }
+    }
+
+    function openSheetModal() {
+      const modal = document.getElementById('sheetModal');
+      const input = document.getElementById('inputSheetUrl');
+      if (input) {
+        input.value = getActiveSheetUrl();
+      }
+      renderSavedLeads();
+      if (typeof modal.showModal === 'function') {
+        modal.showModal();
+      } else {
+        modal.setAttribute('open', '');
+      }
+    }
+
+    function closeSheetModal() {
+      const modal = document.getElementById('sheetModal');
+      if (typeof modal.close === 'function') {
+        modal.close();
+      } else {
+        modal.removeAttribute('open');
+      }
+    }
+
+    function saveSheetUrl() {
+      const input = document.getElementById('inputSheetUrl');
+      const url = input.value.trim();
+      const statusEl = document.getElementById('sheetStatusMsg');
+
+      if (!url) {
+        localStorage.removeItem('tienkhanh_google_sheet_url');
+        showSheetStatus('⚠️ Đã xóa URL kết nối Google Sheet.', 'bg-amber-900/40 text-amber-300 border border-amber-600/50');
+        return;
+      }
+
+      if (!url.startsWith('https://script.google.com/macros/s/')) {
+        showSheetStatus('❌ URL không hợp lệ! Vui lòng dùng link Web App của Google Script (bắt đầu bằng https://script.google.com/macros/s/...)', 'bg-red-900/40 text-rose-300 border border-rose-600/50');
+        return;
+      }
+
+      localStorage.setItem('tienkhanh_google_sheet_url', url);
+      GOOGLE_SHEET_WEB_APP_URL = url;
+      showSheetStatus('✅ Đã lưu kết nối Google Sheet thành công! Từ bây giờ mỗi khi khách bấm gửi form, SĐT và đơn sẽ tự động lưu vào Bảng tính của bạn.', 'bg-emerald-900/40 text-emerald-300 border border-emerald-600/50');
+    }
+
+    function sendTestLeadToSheet() {
+      const sheetUrl = getActiveSheetUrl();
+      if (!sheetUrl || !sheetUrl.startsWith('http')) {
+        showSheetStatus('⚠️ Bạn chưa dán Web App URL của Google Sheet! Hãy làm theo hướng dẫn 3 bước để lấy URL trước.', 'bg-amber-900/40 text-amber-300 border border-amber-600/50');
+        return;
+      }
+
+      showSheetStatus('⏳ Đang gửi đơn thử nghiệm sang Google Sheet...', 'bg-blue-900/40 text-blue-300 border border-blue-600/50');
+
+      const testPayload = {
+        fullName: "Đơn Mẫu Kiểm Tra (Tiến Khanh)",
+        phoneZalo: "0938519369",
+        duration: "40s - 60s",
+        quantity: 3,
+        totalAmount: 645000,
+        industry: "Kiểm tra kết nối",
+        notes: "Đơn mẫu thử nghiệm tích hợp Google Sheets từ Landing Page",
+        memo: "TEST_TIENKHANH_GSP",
+        submittedAt: new Date().toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' })
+      };
+
+      fetch(sheetUrl, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(testPayload)
+      }).then(() => {
+        saveLeadLocally(testPayload);
+        showSheetStatus('🎉 THÀNH CÔNG! Đã gửi đơn thử nghiệm lên Google Sheet. Bạn hãy mở Bảng tính Google Sheet của mình ra để xem dòng dữ liệu mới vừa xuất hiện nhé!', 'bg-emerald-900/40 text-emerald-300 border border-emerald-600/50');
+      }).catch(err => {
+        showSheetStatus('❌ Gặp lỗi khi gửi: ' + err.toString(), 'bg-red-900/40 text-rose-300 border border-rose-600/50');
+      });
+    }
+
+    function clearSavedLeads() {
+      if (confirm('Bạn có chắc muốn xóa danh sách khách lưu tạm trên trình duyệt này?')) {
+        localStorage.removeItem('tienkhanh_saved_leads');
+        renderSavedLeads();
+        showSheetStatus('Đã dọn dẹp danh sách tạm trên máy này.', 'bg-white/10 text-silver border border-white/20');
+      }
+    }
+
+    function showSheetStatus(msg, classes) {
+      const statusEl = document.getElementById('sheetStatusMsg');
+      statusEl.className = `p-3 rounded-xl text-xs font-semibold ${classes}`;
+      statusEl.innerText = msg;
+      statusEl.classList.remove('hidden');
+    }
+  </script>
+
+</body>
+</html>
