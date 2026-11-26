@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dịch Vụ Sản Xuất Video AI Ngắn Chuyên Nghiệp | TIENKHANH.ACADEMY</title>
-  <meta name="description" content="Biến hình ảnh sản phẩm thành video quảng cáo AI ngắn chuyên nghiệp. Nhanh chóng trong 24h, tiết kiệm chi phí, không cần quay phim. Nhận từ 3 video, tặng kèm KOL AI độc quyền.">
+  <meta name="description" content="Biến hình ảnh sản phẩm thành video quảng cáo AI ngắn chuyên nghiệp. Bàn giao trong 24h-48h, tiết kiệm chi phí, không cần quay phim. Nhận từ 3 video, tặng kèm KOL AI độc quyền.">
   <meta name="theme-color" content="#0056B3">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Dịch Vụ Sản Xuất Video AI Ngắn Chuyên Nghiệp | Tien Khanh">
+  <meta property="og:title" content="Dịch Vụ Sản Xuất Video AI Ngắn Chuyên Nghiệp | TIENKHANH.ACADEMY">
   <meta property="og:description" content="Biến hình ảnh sản phẩm thành video quảng cáo triệu view bằng AI. Nhận video Full HD trong 24h-48h, nhận từ 3 video, tặng kèm nhân vật KOL AI phù hợp sản phẩm.">
-  <meta property="og:image" content="assets/brand-tien-khanh-video-ai-vibe-coding.png">
+  <meta property="og:url" content="https://tienkhanh-academy.songnguyen2838.workers.dev/">
+  <meta property="og:image" content="https://tienkhanh-academy.songnguyen2838.workers.dev/assets/brand-tien-khanh-video-ai-vibe-coding.png">
   <meta property="og:type" content="website">
 
     <!-- Favicon -->
@@ -1118,7 +1119,7 @@
                 ★ Kích hoạt Ưu Đãi Đối Tác Lâu Dài
               </span>
               <div id="longTermPartnerNote" class="hidden text-xs text-goldBright font-medium mt-1">
-                ★ Gói đối tác: Được hỗ trợ chiết khấu thêm 10%–15% hoặc tặng thêm video khi chốt hợp đồng qua Zalo!
+                ★ Gói đối tác (10–30 video): Có báo giá chiết khấu riêng — Anh/chị nên bấm "Nhờ Tư Vấn &amp; Gửi Ảnh Trước" bên dưới để nhận giá ưu đãi qua Zalo trước khi chuyển khoản!
               </div>
 
             </div>
@@ -1150,11 +1151,35 @@
           </div>
         </div>
 
-          <!-- Submit Button -->
-          <button type="submit" class="btn-gold w-full px-4 py-3.5 sm:py-4 rounded-xl font-black text-sm sm:text-base shadow-lg transition flex items-center justify-center gap-2 whitespace-nowrap">
-            <span>Tiếp Tục ➔ Thanh Toán VietQR</span>
-            <svg class="w-5 h-5 stroke-current shrink-0" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z"/></svg>
-          </button>
+          <!-- Submit & Consult Buttons (Hai luồng chuyển đổi không mất khách do dự) -->
+          <div class="space-y-3">
+            <button type="submit" class="btn-gold w-full px-4 py-3.5 sm:py-4 rounded-xl font-black text-sm sm:text-base shadow-lg transition flex items-center justify-center gap-2 whitespace-nowrap">
+              <span>Tiếp Tục ➔ Thanh Toán VietQR</span>
+              <svg class="w-5 h-5 stroke-current shrink-0" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z"/></svg>
+            </button>
+
+            <button type="button" onclick="handleConsultSubmit()" class="btn-ghost-gold w-full px-4 py-3 rounded-xl font-bold text-xs sm:text-sm transition flex items-center justify-center gap-2 text-center">
+              <span>💬 Nhờ Tư Vấn &amp; Gửi Ảnh Trước (Chưa Cần Chuyển Khoản)</span>
+            </button>
+          </div>
+
+          <!-- Inline Success Box khi khách chọn Tư Vấn Trước -->
+          <div id="consultSuccessBox" class="hidden p-4 sm:p-5 rounded-2xl bg-emerald-950/50 border border-emerald-400/50 space-y-3 text-center">
+            <div class="text-sm font-black text-emerald-300">✅ Đã ghi nhận thông tin tư vấn của anh/chị!</div>
+            <p class="text-xs text-silver leading-relaxed">
+              Để được <strong class="text-white">Thanh Hà (0918 257 209)</strong> xem ảnh sản phẩm &amp; gợi ý mẫu KOL AI ngay lập tức, anh/chị bấm mở Zalo bên dưới:
+            </p>
+            <div class="flex flex-col sm:flex-row gap-2.5 justify-center">
+              <a id="btnConsultZaloDirect" href="https://zalo.me/0918257209" target="_blank" class="flex-1 py-3 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md transition">
+                <svg class="w-4 h-4 fill-current shrink-0" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.04 2 11.03c0 2.87 1.48 5.43 3.79 7.07l-.99 3.65c-.1.38.27.71.63.56l4.22-1.78c.76.19 1.55.29 2.35.29 5.52 0 10-4.04 10-9.03S17.52 2 12 2z"/></svg>
+                <span>Nhắn Zalo Thanh Hà Gửi Ảnh Ngay ➔</span>
+              </a>
+              <button type="button" onclick="copyConsultMessage()" class="py-3 px-4 rounded-xl bg-white/10 hover:bg-white/15 text-goldBright border border-gold/40 font-bold text-xs transition whitespace-nowrap">
+                📋 Chép lời nhắn mẫu
+              </button>
+            </div>
+            <div id="consultCopyToast" class="hidden text-[11px] font-semibold text-emerald-300">Đã chép lời nhắn gửi Zalo vào bộ nhớ tạm!</div>
+          </div>
 
           <p class="text-center text-[11px] text-silverMuted">
             🔒 Thông tin của bạn được bảo mật tuyệt đối. Chúng tôi liên hệ qua Zalo trong vòng 10 phút để xác nhận đơn.
@@ -1221,6 +1246,10 @@
           </div>
         </div>
       </div>
+
+      <p class="text-[11px] text-center text-silver mb-3">
+        💡 Muốn gửi ảnh sản phẩm để <strong class="text-goldBright">Thanh Hà</strong> tư vấn trước khi chuyển? Hãy bấm nút Zalo ngay bên dưới.
+      </p>
 
       <!-- Modal Action Buttons -->
       <div class="space-y-2">
@@ -1333,9 +1362,9 @@
 
       <!-- Action buttons -->
       <div class="mt-4 flex flex-col gap-2">
-        <a href="#dat-don" onclick="closeVideoModal()" class="btn-gold w-full py-3 rounded-xl font-bold text-xs text-center shadow-md">
+        <button type="button" onclick="orderFromActiveVideoModal()" class="btn-gold w-full py-3 rounded-xl font-bold text-xs text-center shadow-md cursor-pointer">
           Đặt Làm Video Giống Mẫu Này ➔
-        </a>
+        </button>
         <div class="flex items-center justify-between px-1 text-[11px]">
           <a id="modalVideoYtLink" href="#" target="_blank" rel="noopener noreferrer" class="text-goldBright hover:underline">
             Mở xem trên YouTube ➔
@@ -1459,9 +1488,9 @@
 
         <div>
           <div class="font-bold text-white mb-1">Thông Tin Liên Hệ</div>
-          <p class="text-silver">Zalo Tư Vấn: <strong class="text-goldBright font-bold">0918 257 209</strong> (Thanh Hà)</p>
-          <p class="text-silver">Hotline / Zalo: <a href="https://zalo.me/0938519369" target="_blank" class="text-white font-bold hover:text-goldBright transition underline underline-offset-2">0938 519 369</a> (<a href="tel:0938519369" class="hover:text-goldBright">Tiến Khanh</a>)</p>
-          <p class="text-silver">Email: <strong class="text-white">tienkhanh2838@gmail.com</strong></p>
+          <p class="text-silver">Zalo Tư Vấn: <a href="https://zalo.me/0918257209" target="_blank" class="text-goldBright font-bold hover:text-white transition underline underline-offset-2">0918 257 209</a> (<a href="tel:0918257209" class="hover:text-goldBright transition">Thanh Hà</a>)</p>
+          <p class="text-silver">Hotline / Zalo: <a href="https://zalo.me/0938519369" target="_blank" class="text-white font-bold hover:text-goldBright transition underline underline-offset-2">0938 519 369</a> (<a href="tel:0938519369" class="hover:text-goldBright transition">Tiến Khanh</a>)</p>
+          <p class="text-silver">Email: <a href="mailto:tienkhanh2838@gmail.com" class="text-white font-bold hover:text-goldBright transition underline underline-offset-2">tienkhanh2838@gmail.com</a></p>
         </div>
 
         <div>
@@ -1628,24 +1657,27 @@
       }
     }
 
-    // Xử lý gửi form và mở modal VietQR + Đồng bộ Google Sheets
-    function handleOrderSubmit(e) {
-      e.preventDefault();
-      
+    let lastConsultMessage = "";
+
+    // Thu thập dữ liệu form, lưu dự phòng & đồng bộ Google Sheets cho cả 2 luồng (VietQR hoặc Tư Vấn Trước)
+    function collectAndDispatchOrder(mode) {
       const fullName = document.getElementById('fullName').value.trim();
       const phoneZalo = document.getElementById('phoneZalo').value.trim();
       const industry = document.getElementById('industrySelect').value;
-      const notes = document.getElementById('notes').value.trim();
+      const rawNotes = document.getElementById('notes').value.trim();
+      const notes = mode === 'consult'
+        ? `[Tư vấn gửi ảnh trước] ${rawNotes}`.trim()
+        : rawNotes;
 
-      // Rút gọn mã nội dung thanh toán để VietQR dễ đọc
       let durCode = "40S";
       if (currentDuration === "25s - 35s") durCode = "30S";
       if (currentDuration === "70s - 90s") durCode = "80S";
 
       const cleanPhone = phoneZalo.replace(/\D/g, '').slice(-9);
-      const memo = `VAI ${cleanPhone} ${durCode} ${currentQuantity}V`.trim();
+      const memo = mode === 'consult'
+        ? `TV ${cleanPhone} ${durCode} ${currentQuantity}V`.trim()
+        : `VAI ${cleanPhone} ${durCode} ${currentQuantity}V`.trim();
 
-      // Gom dữ liệu đơn hàng
       const orderData = {
         fullName: fullName || "Khách hàng",
         phoneZalo: phoneZalo,
@@ -1658,32 +1690,29 @@
         submittedAt: new Date().toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' })
       };
 
-      // 1. LƯU BẢN SAO DỰ PHÒNG VÀO LOCALSTORAGE (Không bao giờ sợ mất SĐT khách)
       saveLeadLocally(orderData);
 
-      // 2. TỰ ĐỘNG GỬI SANG GOOGLE SHEETS BẤT ĐỒNG BỘ
       const sheetUrl = getActiveSheetUrl();
       if (sheetUrl && sheetUrl.startsWith('http')) {
-        console.log('🔄 Đang gửi dữ liệu khách hàng lên Google Sheet:', sheetUrl);
         fetch(sheetUrl, {
           method: 'POST',
           mode: 'no-cors',
-          headers: {
-            'Content-Type': 'application/json'
-          },
+          headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(orderData)
-        }).then(() => {
-          console.log('✅ Đã đồng bộ số điện thoại khách hàng lên Google Sheets thành công!');
         }).catch((err) => {
           console.error('❌ Lỗi khi gửi dữ liệu sang Google Sheet:', err);
         });
-      } else {
-        console.warn('⚠️ Chưa cấu hình Web App URL Google Sheet. Dữ liệu tạm thời lưu an toàn trong trình duyệt (Local Leads).');
       }
 
-      // 3. TẠO MÃ VIETQR VÀ MỞ MODAL THANH TOÁN
-      const qrUrl = `https://img.vietqr.io/image/ICB-100888653388-compact2.png?amount=${currentTotalAmount}&addInfo=${encodeURIComponent(memo)}&accountName=${encodeURIComponent('HO KINH DOANH TIENKHANH ACADEMY')}`;
+      return { fullName, phoneZalo, industry, rawNotes, memo };
+    }
 
+    // Luồng 1: Thanh toán ngay qua VietQR
+    function handleOrderSubmit(e) {
+      e.preventDefault();
+      const { fullName, phoneZalo, industry, memo } = collectAndDispatchOrder('payment');
+
+      const qrUrl = `https://img.vietqr.io/image/ICB-100888653388-compact2.png?amount=${currentTotalAmount}&addInfo=${encodeURIComponent(memo)}&accountName=${encodeURIComponent('HO KINH DOANH TIENKHANH ACADEMY')}`;
       document.getElementById('qrImage').src = qrUrl;
       document.getElementById('modalAmountText').innerText = currentTotalAmount.toLocaleString('vi-VN') + 'đ';
       document.getElementById('modalMemoText').innerText = memo;
@@ -1691,13 +1720,43 @@
       const zaloMessage = encodeURIComponent(`Chào bạn Thanh Hà (TIENKHANH.ACADEMY), tôi vừa đặt đơn làm ${currentQuantity} video (${currentDuration}) với tổng tiền: ${currentTotalAmount.toLocaleString('vi-VN')}đ cho ngành: ${industry}. Tên: ${fullName}, SĐT: ${phoneZalo}. Nội dung chuyển khoản: ${memo}. Nhờ bạn xác nhận và tư vấn KOL AI giúp tôi nhé!`);
       document.getElementById('btnSendZaloConfirm').href = `https://zalo.me/0918257209?text=${zaloMessage}`;
 
-      // Mở modal VietQR
       const modal = document.getElementById('paymentModal');
       if (typeof modal.showModal === 'function') {
         modal.showModal();
       } else {
         modal.setAttribute('open', '');
       }
+    }
+
+    // Luồng 2: Nhờ tư vấn & gửi ảnh sản phẩm trước (chưa cần chuyển khoản)
+    function handleConsultSubmit() {
+      const form = document.getElementById('orderForm');
+      if (form && !form.reportValidity()) return;
+
+      const { fullName, phoneZalo, industry, rawNotes } = collectAndDispatchOrder('consult');
+      const noteText = rawNotes ? ` (${rawNotes})` : '';
+      lastConsultMessage = `Chào bạn Thanh Hà (TIENKHANH.ACADEMY), mình tên ${fullName} (SĐT: ${phoneZalo}). Mình đang quan tâm gói ${currentQuantity} video (${currentDuration}) ngành "${industry}"${noteText}. Nhờ bạn tư vấn mẫu KOL AI giúp mình trước khi chốt nhé!`;
+
+      const zaloDirect = document.getElementById('btnConsultZaloDirect');
+      if (zaloDirect) {
+        zaloDirect.href = `https://zalo.me/0918257209?text=${encodeURIComponent(lastConsultMessage)}`;
+      }
+      const box = document.getElementById('consultSuccessBox');
+      if (box) {
+        box.classList.remove('hidden');
+        box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
+
+    function copyConsultMessage() {
+      if (!lastConsultMessage) return;
+      navigator.clipboard.writeText(lastConsultMessage).then(() => {
+        const toast = document.getElementById('consultCopyToast');
+        if (toast) {
+          toast.classList.remove('hidden');
+          setTimeout(() => toast.classList.add('hidden'), 2500);
+        }
+      }).catch(() => alert(lastConsultMessage));
     }
 
     function closeModal() {
@@ -1714,7 +1773,30 @@
     // =========================================================================
     
 
-function openVideoModal(videoId, title, ratio) {
+    const VIDEO_INDUSTRY_MAP = {
+      'i_Eu5EcVztg': 'Đồ ăn & Thức uống (F&B)',
+      'Nunber6dTik': 'Mỹ phẩm & Chăm sóc da',
+      'FjUi3Dzf5xI': 'Mỹ phẩm & Chăm sóc da',
+      'bT_UsefDeds': 'Đồ gia dụng & Tiện ích',
+      'XbApT-70f9A': 'Đồ ăn & Thức uống (F&B)',
+      'GWSbYaQBvLM': 'Đồ ăn & Thức uống (F&B)',
+      'EJAE0HHFb5w': 'Thời trang & Phụ kiện',
+      'x0ilIP4vH_8': 'Xây thương hiệu cá nhân',
+      'zM4EOWG11sc': 'Mỹ phẩm & Chăm sóc da',
+      '0QmXTeDY7eM': 'Đồ gia dụng & Tiện ích'
+    };
+    let activeModalVideo = { industry: '', title: '' };
+
+    function orderFromActiveVideoModal() {
+      closeVideoModal();
+      selectTemplateAndOrder(activeModalVideo.industry, activeModalVideo.title);
+    }
+
+function openVideoModal(videoId, title, ratio, industry) {
+      activeModalVideo = {
+        industry: industry || VIDEO_INDUSTRY_MAP[videoId] || '',
+        title: title || ''
+      };
       const modal = document.getElementById('videoPlayerModal');
       const iframe = document.getElementById('modalVideoIframe');
       const titleEl = document.getElementById('modalVideoTitle');
