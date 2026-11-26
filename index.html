@@ -1679,6 +1679,7 @@
         : `VAI ${cleanPhone} ${durCode} ${currentQuantity}V`.trim();
 
       const orderData = {
+        targetSheet: "VIDEO AI - DỊCH VỤ",
         fullName: fullName || "Khách hàng",
         phoneZalo: phoneZalo,
         duration: currentDuration,
@@ -1960,6 +1961,7 @@ function openVideoModal(videoId, title, ratio, industry) {
       showSheetStatus('⏳ Đang gửi đơn thử nghiệm sang Google Sheet...', 'bg-blue-900/40 text-blue-300 border border-blue-600/50');
 
       const testPayload = {
+        targetSheet: "VIDEO AI - DỊCH VỤ",
         fullName: "Đơn Mẫu Kiểm Tra (Tiến Khanh)",
         phoneZalo: "0938519369",
         duration: "40s - 60s",
